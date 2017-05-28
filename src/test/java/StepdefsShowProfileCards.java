@@ -21,7 +21,7 @@ public class StepdefsShowProfileCards {
     private static String webSiteUrl;
 
     static {
-        webSiteUrl = "http://localhost/siteqs/";
+        webSiteUrl = "http://stagingapp-duplacapicua.1d35.starter-us-east-1.openshiftapps.com/";
         Logger.getLogger("").setLevel(Level.OFF);
         if (driver == null) {
             driver = Driver.INSTANCE.getDriver();

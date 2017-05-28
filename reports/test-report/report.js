@@ -100,14 +100,14 @@ formatter.match({
   "location": "StepdefsShowProfileCards.imIntoDeWebsite()"
 });
 formatter.result({
-  "duration": 9867918022,
+  "duration": 16463847234,
   "status": "passed"
 });
 formatter.match({
   "location": "StepdefsShowProfileCards.thePageFinishedLoad()"
 });
 formatter.result({
-  "duration": 674655905,
+  "duration": 989690320,
   "status": "passed"
 });
 formatter.match({
@@ -144,11 +144,11 @@ formatter.match({
   "location": "StepdefsShowProfileCards.theWebsiteShowsTheProfileCardsOfEachMemberWithAnd(String,String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 2246572828,
+  "duration": 5662184362,
   "status": "passed"
 });
 formatter.after({
-  "duration": 7678162,
+  "duration": 30302564,
   "status": "passed"
 });
 });
