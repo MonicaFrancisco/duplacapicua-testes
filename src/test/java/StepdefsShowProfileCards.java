@@ -43,8 +43,9 @@ public class StepdefsShowProfileCards {
 
     @Then("^the website shows the profile cards of each member with \"([^\"]*)\", \"([^\"]*)\", \"([^\"]*)\", \"([^\"]*)\",\"([^\"]*)\",\"([^\"]*)\" and \"([^\"]*)\"$")
     public void theWebsiteShowsTheProfileCardsOfEachMemberWithAnd(String photo, String name, String job, String workplace, String linkedIn, String facebook, String instagram) throws Throwable {
-        wait.until(ExpectedConditions.textToBePresentInElement(driver.findElement(By.xpath("//section[@id='team']/div/div[3]/div/h4")),name));
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//section[@id='team']/div/div[3]/div/a/img[@src='"+photo+"']")));
+        wait.until(ExpectedConditions.textToBePresentInElement(driver.findElement(By.xpath("//section[@id='team']/div/div[3]/div/h4")),name));
+        wait.until(ExpectedConditions.textToBePresentInElement(driver.findElement(By.xpath("//section[@id='team']/div/div[3]/div/p")),job));
     }
 
     @After

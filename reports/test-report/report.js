@@ -2,7 +2,7 @@ $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.
 formatter.feature({
   "line": 1,
   "name": "Show the profile cards",
-  "description": "As an User\nI want to check the profile cards of each member\nSo that I can get to know more about each member",
+  "description": "As an User\r\nI want to check the profile cards of each member\r\nSo that I can get to know more about each member",
   "id": "show-the-profile-cards",
   "keyword": "Feature"
 });
@@ -52,8 +52,8 @@ formatter.examples({
       "cells": [
         "img/1.jpg",
         "Ana Margarida Weber",
-        "Estudante do MEI-CM",
-        "Instituto Polit?cnico de Leiria",
+        "Estudante do Mestrado de Eng.Informática",
+        "Instituto Politécnico de Leiria",
         "https://www.linkedin.com/in/anamargaridaweber/",
         "https://www.facebook.com/margarida.weber.9",
         "https://www.instagram.com/margarida_weber/?hl\u003dpt"
@@ -84,7 +84,7 @@ formatter.step({
 });
 formatter.step({
   "line": 9,
-  "name": "the website shows the profile cards of each member with \"img/1.jpg\", \"Ana Margarida Weber\", \"Estudante do MEI-CM\", \"Instituto Polit?cnico de Leiria\",\"https://www.linkedin.com/in/anamargaridaweber/\",\"https://www.facebook.com/margarida.weber.9\" and \"https://www.instagram.com/margarida_weber/?hl\u003dpt\"",
+  "name": "the website shows the profile cards of each member with \"img/1.jpg\", \"Ana Margarida Weber\", \"Estudante do Mestrado de Eng.Informática\", \"Instituto Politécnico de Leiria\",\"https://www.linkedin.com/in/anamargaridaweber/\",\"https://www.facebook.com/margarida.weber.9\" and \"https://www.instagram.com/margarida_weber/?hl\u003dpt\"",
   "matchedColumns": [
     0,
     1,
@@ -100,14 +100,14 @@ formatter.match({
   "location": "StepdefsShowProfileCards.imIntoDeWebsite()"
 });
 formatter.result({
-  "duration": 16463847234,
+  "duration": 13656401427,
   "status": "passed"
 });
 formatter.match({
   "location": "StepdefsShowProfileCards.thePageFinishedLoad()"
 });
 formatter.result({
-  "duration": 989690320,
+  "duration": 484971500,
   "status": "passed"
 });
 formatter.match({
@@ -121,34 +121,34 @@ formatter.match({
       "offset": 70
     },
     {
-      "val": "Estudante do MEI-CM",
+      "val": "Estudante do Mestrado de Eng.Informática",
       "offset": 93
     },
     {
-      "val": "Instituto Polit?cnico de Leiria",
-      "offset": 116
+      "val": "Instituto Politécnico de Leiria",
+      "offset": 137
     },
     {
       "val": "https://www.linkedin.com/in/anamargaridaweber/",
-      "offset": 150
+      "offset": 171
     },
     {
       "val": "https://www.facebook.com/margarida.weber.9",
-      "offset": 199
+      "offset": 220
     },
     {
       "val": "https://www.instagram.com/margarida_weber/?hl\u003dpt",
-      "offset": 248
+      "offset": 269
     }
   ],
   "location": "StepdefsShowProfileCards.theWebsiteShowsTheProfileCardsOfEachMemberWithAnd(String,String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 5662184362,
+  "duration": 2987271951,
   "status": "passed"
 });
 formatter.after({
-  "duration": 30302564,
+  "duration": 52731242,
   "status": "passed"
 });
 });
