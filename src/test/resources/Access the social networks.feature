@@ -1,9 +1,9 @@
 #Feature: Access the social networks
-#
+
 # Scenario: The profile card has Instagram
 #  Given the speaker has <instagram>
 #  When the user clicks on the Instagram button
-#  Then the system should show speaker Instagram page
+# Then the system should show speaker Instagram page
 #
 # Scenario: The profile card has Facebook
 #  Given the speaker has <facebook>

@@ -17,7 +17,7 @@
 #
 #name                | certifications and awards                                                 | skills
 #Ana Margarida Weber | IP Erasmus - Learning Computer Programming in Virtual Environment (VIOPE) | HTML CSS JavaScript C# Java SQL Android Ruby on Rails Swift
-#Joao Fernandes      | Swift Level 2 Cambridge Certification Authority 				| HTML CSS JavaScript PHP C# Java SQL Android Swift Objective-C
+#Joao Fernandes      | Swift Level 2 Cambridge Certification Authority 				             | HTML CSS JavaScript PHP C# Java SQL Android Swift Objective-C
 #Monica Francisco    | IP Erasmus - Learning Computer Programming in Virtual Environment (VIOPE) | HTML CSS JavaScript PHP C# Java SQL Android Ruby on Rails Swift
 #
 # Scenario: The profile card has all the information

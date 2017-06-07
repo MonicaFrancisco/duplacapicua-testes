@@ -2,7 +2,7 @@ $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.
 formatter.feature({
   "line": 1,
   "name": "Show the profile cards",
-  "description": "As an User\r\nI want to check the profile cards of each member\r\nSo that I can get to know more about each member",
+  "description": "As an User\nI want to check the profile cards of each member\nSo that I can get to know more about each member",
   "id": "show-the-profile-cards",
   "keyword": "Feature"
 });
@@ -100,14 +100,14 @@ formatter.match({
   "location": "StepdefsShowProfileCards.imIntoDeWebsite()"
 });
 formatter.result({
-  "duration": 7938456376,
+  "duration": 1440179309,
   "status": "passed"
 });
 formatter.match({
   "location": "StepdefsShowProfileCards.thePageFinishedLoad()"
 });
 formatter.result({
-  "duration": 484754301,
+  "duration": 83333348,
   "status": "passed"
 });
 formatter.match({
@@ -144,11 +144,11 @@ formatter.match({
   "location": "StepdefsShowProfileCards.theWebsiteShowsTheProfileCardsOfEachMemberWithAnd(String,String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 3546151234,
+  "duration": 1817967408,
   "status": "passed"
 });
 formatter.after({
-  "duration": 2845475,
+  "duration": 2652796,
   "status": "passed"
 });
 });
