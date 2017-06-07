@@ -46,20 +46,38 @@ public class StepdefsShowProfileCards {
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//section[@id='team']/div/div[3]/div/h4")));
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//section[@id='team']/div/div[3]/div/p")));
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//section[@id='team']/div/div[3]/div/b/p")));
+
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//section[@id='team']/div/div[3]/div[2]/h4")));
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//section[@id='team']/div/div[3]/div[2]/p")));
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//section[@id='team']/div/div[3]/div[2]/b/p")));
     }
 
     @Then("^the website shows the profile cards of each member with \"([^\"]*)\", \"([^\"]*)\", \"([^\"]*)\", \"([^\"]*)\",\"([^\"]*)\",\"([^\"]*)\" and \"([^\"]*)\"$")
     public void theWebsiteShowsTheProfileCardsOfEachMemberWithAnd(String photo, String name, String job, String workplace, String linkedIn, String facebook, String instagram) throws Throwable {
 
 
-        
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//section[@id='team']/div/div[3]/div/a/img[@src='"+photo+"']")));
-        assertEquals(name, driver.findElement(By.xpath("//section[@id='team']/div/div[3]/div/h4")).getText());
-        assertEquals(job, driver.findElement(By.xpath("//section[@id='team']/div/div[3]/div/p")).getText());
-        assertEquals(workplace, driver.findElement(By.xpath("//section[@id='team']/div/div[3]/div/b/p")).getText());
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//section[@id='team']/div/div[3]/div/ul/li/a[@href='"+facebook+"']")));
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//section[@id='team']/div/div[3]/div/ul/li[2]/a[@href='"+linkedIn+"']")));
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//section[@id='team']/div/div[3]/div/ul/li[3]/a[@href='"+instagram+"']")));
+        if (name.equals("Ana Margarida Weber")) {
+            wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//section[@id='team']/div/div[3]/div/a/img[@src='" + photo + "']")));
+            assertEquals(name, driver.findElement(By.xpath("//section[@id='team']/div/div[3]/div/h4")).getText());
+            assertEquals(job, driver.findElement(By.xpath("//section[@id='team']/div/div[3]/div/p")).getText());
+            assertEquals(workplace, driver.findElement(By.xpath("//section[@id='team']/div/div[3]/div/b/p")).getText());
+            wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//section[@id='team']/div/div[3]/div/ul/li/a[@href='" + facebook + "']")));
+            wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//section[@id='team']/div/div[3]/div/ul/li[2]/a[@href='" + linkedIn + "']")));
+            wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//section[@id='team']/div/div[3]/div/ul/li[3]/a[@href='" + instagram + "']")));
+        }else if(name.equals("João Fernandes")){
+            wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//section[@id='team']/div/div[3]/div[2]/a/img[@src='" + photo + "']")));
+            assertEquals(name, driver.findElement(By.xpath("//section[@id='team']/div/div[3]/div[2]/h4")).getText());
+            assertEquals(job, driver.findElement(By.xpath("//section[@id='team']/div/div[3]/div[2]/p")).getText());
+            assertEquals(workplace, driver.findElement(By.xpath("//section[@id='team']/div/div[3]/div[2]/b/p")).getText());
+            wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//section[@id='team']/div/div[3]/div[2]/ul/li/a[@href='" + facebook + "']")));
+            wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//section[@id='team']/div/div[3]/div[2]/ul/li[2]/a[@href='" + linkedIn + "']")));
+            wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//section[@id='team']/div/div[3]/div[2]/ul/li[3]/a[@href='" + instagram + "']")));
+
+
+        }else if(name.equals("Mónica Francisco")){
+
+
+        }
     }
 
     @After
