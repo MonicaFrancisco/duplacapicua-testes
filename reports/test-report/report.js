@@ -1,4 +1,807 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Show details of a profile card.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Access the social networks.feature");
+formatter.feature({
+  "line": 2,
+  "name": "Access the social networks",
+  "description": "",
+  "id": "access-the-social-networks",
+  "keyword": "Feature"
+});
+formatter.scenarioOutline({
+  "line": 4,
+  "name": "The profile card has Instagram",
+  "description": "",
+  "id": "access-the-social-networks;the-profile-card-has-instagram",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 5,
+  "name": "the speaker has socialNetwork",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 6,
+  "name": "the user clicks on the Instagram button of \"\u003cmember\u003e\"",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 7,
+  "name": "the system should show speaker \"\u003cinstagram\u003e\" page of \"\u003cmember\u003e\"",
+  "keyword": "Then "
+});
+formatter.examples({
+  "line": 9,
+  "name": "",
+  "description": "",
+  "id": "access-the-social-networks;the-profile-card-has-instagram;",
+  "rows": [
+    {
+      "cells": [
+        "member",
+        "instagram"
+      ],
+      "line": 11,
+      "id": "access-the-social-networks;the-profile-card-has-instagram;;1"
+    },
+    {
+      "cells": [
+        "Margarida",
+        "https://www.instagram.com/margarida_weber/?hl\u003dpt"
+      ],
+      "line": 12,
+      "id": "access-the-social-networks;the-profile-card-has-instagram;;2"
+    },
+    {
+      "cells": [
+        "Joao",
+        "https://www.instagram.com/joaofpfernandes/?hl\u003dpt"
+      ],
+      "line": 13,
+      "id": "access-the-social-networks;the-profile-card-has-instagram;;3"
+    },
+    {
+      "cells": [
+        "Monica",
+        ""
+      ],
+      "line": 14,
+      "id": "access-the-social-networks;the-profile-card-has-instagram;;4"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.scenario({
+  "line": 12,
+  "name": "The profile card has Instagram",
+  "description": "",
+  "id": "access-the-social-networks;the-profile-card-has-instagram;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 5,
+  "name": "the speaker has socialNetwork",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 6,
+  "name": "the user clicks on the Instagram button of \"Margarida\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 7,
+  "name": "the system should show speaker \"https://www.instagram.com/margarida_weber/?hl\u003dpt\" page of \"Margarida\"",
+  "matchedColumns": [
+    0,
+    1
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepdefsSocial.theSpeakerHasSocialNetwork()"
+});
+formatter.result({
+  "duration": 3798211976,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Margarida",
+      "offset": 44
+    }
+  ],
+  "location": "StepdefsSocial.theUserClicksOnTheInstagramButtonOf(String)"
+});
+formatter.result({
+  "duration": 2668905152,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "https://www.instagram.com/margarida_weber/?hl\u003dpt",
+      "offset": 32
+    },
+    {
+      "val": "Margarida",
+      "offset": 91
+    }
+  ],
+  "location": "StepdefsSocial.theSystemShouldShowSpeakerPageOf(String,String)"
+});
+formatter.result({
+  "duration": 127083801,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 13,
+  "name": "The profile card has Instagram",
+  "description": "",
+  "id": "access-the-social-networks;the-profile-card-has-instagram;;3",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 5,
+  "name": "the speaker has socialNetwork",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 6,
+  "name": "the user clicks on the Instagram button of \"Joao\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 7,
+  "name": "the system should show speaker \"https://www.instagram.com/joaofpfernandes/?hl\u003dpt\" page of \"Joao\"",
+  "matchedColumns": [
+    0,
+    1
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepdefsSocial.theSpeakerHasSocialNetwork()"
+});
+formatter.result({
+  "duration": 42120834,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Joao",
+      "offset": 44
+    }
+  ],
+  "location": "StepdefsSocial.theUserClicksOnTheInstagramButtonOf(String)"
+});
+formatter.result({
+  "duration": 303804837,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "https://www.instagram.com/joaofpfernandes/?hl\u003dpt",
+      "offset": 32
+    },
+    {
+      "val": "Joao",
+      "offset": 91
+    }
+  ],
+  "location": "StepdefsSocial.theSystemShouldShowSpeakerPageOf(String,String)"
+});
+formatter.result({
+  "duration": 14107468,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 14,
+  "name": "The profile card has Instagram",
+  "description": "",
+  "id": "access-the-social-networks;the-profile-card-has-instagram;;4",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 5,
+  "name": "the speaker has socialNetwork",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 6,
+  "name": "the user clicks on the Instagram button of \"Monica\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 7,
+  "name": "the system should show speaker \"\" page of \"Monica\"",
+  "matchedColumns": [
+    0,
+    1
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepdefsSocial.theSpeakerHasSocialNetwork()"
+});
+formatter.result({
+  "duration": 57874528,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Monica",
+      "offset": 44
+    }
+  ],
+  "location": "StepdefsSocial.theUserClicksOnTheInstagramButtonOf(String)"
+});
+formatter.result({
+  "duration": 240271147,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "",
+      "offset": 32
+    },
+    {
+      "val": "Monica",
+      "offset": 43
+    }
+  ],
+  "location": "StepdefsSocial.theSystemShouldShowSpeakerPageOf(String,String)"
+});
+formatter.result({
+  "duration": 90317,
+  "status": "passed"
+});
+formatter.scenarioOutline({
+  "line": 17,
+  "name": "The profile card has Facebook",
+  "description": "",
+  "id": "access-the-social-networks;the-profile-card-has-facebook",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 18,
+  "name": "the speaker has socialNetwork",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 19,
+  "name": "the user clicks on  the Facebook button of \"\u003cmember\u003e\"",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 20,
+  "name": "the website should show speaker \"\u003cfacebook\u003e\" page of \"\u003cmember\u003e\"",
+  "keyword": "Then "
+});
+formatter.examples({
+  "line": 22,
+  "name": "",
+  "description": "",
+  "id": "access-the-social-networks;the-profile-card-has-facebook;",
+  "rows": [
+    {
+      "cells": [
+        "member",
+        "facebook"
+      ],
+      "line": 23,
+      "id": "access-the-social-networks;the-profile-card-has-facebook;;1"
+    },
+    {
+      "cells": [
+        "Margarida",
+        "https://www.facebook.com/margarida.weber.9"
+      ],
+      "line": 24,
+      "id": "access-the-social-networks;the-profile-card-has-facebook;;2"
+    },
+    {
+      "cells": [
+        "Joao",
+        "https://www.facebook.com/joao.fernandes.90281"
+      ],
+      "line": 25,
+      "id": "access-the-social-networks;the-profile-card-has-facebook;;3"
+    },
+    {
+      "cells": [
+        "Monica",
+        "https://www.facebook.com/monicasmfrancisco"
+      ],
+      "line": 26,
+      "id": "access-the-social-networks;the-profile-card-has-facebook;;4"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.scenario({
+  "line": 24,
+  "name": "The profile card has Facebook",
+  "description": "",
+  "id": "access-the-social-networks;the-profile-card-has-facebook;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 18,
+  "name": "the speaker has socialNetwork",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 19,
+  "name": "the user clicks on  the Facebook button of \"Margarida\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 20,
+  "name": "the website should show speaker \"https://www.facebook.com/margarida.weber.9\" page of \"Margarida\"",
+  "matchedColumns": [
+    0,
+    1
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepdefsSocial.theSpeakerHasSocialNetwork()"
+});
+formatter.result({
+  "duration": 121257964,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Margarida",
+      "offset": 44
+    }
+  ],
+  "location": "StepdefsSocial.theUserClicksOnTheFacebookButtonOf(String)"
+});
+formatter.result({
+  "duration": 2066180379,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "https://www.facebook.com/margarida.weber.9",
+      "offset": 33
+    },
+    {
+      "val": "Margarida",
+      "offset": 86
+    }
+  ],
+  "location": "StepdefsSocial.theWebsiteShouldShowSpeakerPageOf(String,String)"
+});
+formatter.result({
+  "duration": 9274704,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 25,
+  "name": "The profile card has Facebook",
+  "description": "",
+  "id": "access-the-social-networks;the-profile-card-has-facebook;;3",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 18,
+  "name": "the speaker has socialNetwork",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 19,
+  "name": "the user clicks on  the Facebook button of \"Joao\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 20,
+  "name": "the website should show speaker \"https://www.facebook.com/joao.fernandes.90281\" page of \"Joao\"",
+  "matchedColumns": [
+    0,
+    1
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepdefsSocial.theSpeakerHasSocialNetwork()"
+});
+formatter.result({
+  "duration": 17346553,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Joao",
+      "offset": 44
+    }
+  ],
+  "location": "StepdefsSocial.theUserClicksOnTheFacebookButtonOf(String)"
+});
+formatter.result({
+  "duration": 545835518,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "https://www.facebook.com/joao.fernandes.90281",
+      "offset": 33
+    },
+    {
+      "val": "Joao",
+      "offset": 89
+    }
+  ],
+  "location": "StepdefsSocial.theWebsiteShouldShowSpeakerPageOf(String,String)"
+});
+formatter.result({
+  "duration": 7309494,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 26,
+  "name": "The profile card has Facebook",
+  "description": "",
+  "id": "access-the-social-networks;the-profile-card-has-facebook;;4",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 18,
+  "name": "the speaker has socialNetwork",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 19,
+  "name": "the user clicks on  the Facebook button of \"Monica\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 20,
+  "name": "the website should show speaker \"https://www.facebook.com/monicasmfrancisco\" page of \"Monica\"",
+  "matchedColumns": [
+    0,
+    1
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepdefsSocial.theSpeakerHasSocialNetwork()"
+});
+formatter.result({
+  "duration": 12802392,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Monica",
+      "offset": 44
+    }
+  ],
+  "location": "StepdefsSocial.theUserClicksOnTheFacebookButtonOf(String)"
+});
+formatter.result({
+  "duration": 742407753,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "https://www.facebook.com/monicasmfrancisco",
+      "offset": 33
+    },
+    {
+      "val": "Monica",
+      "offset": 86
+    }
+  ],
+  "location": "StepdefsSocial.theWebsiteShouldShowSpeakerPageOf(String,String)"
+});
+formatter.result({
+  "duration": 2074000,
+  "status": "passed"
+});
+formatter.scenarioOutline({
+  "line": 29,
+  "name": "The profile card has LinkedIn",
+  "description": "",
+  "id": "access-the-social-networks;the-profile-card-has-linkedin",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 30,
+  "name": "the speaker has socialNetwork",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 31,
+  "name": "the user clicks on the LinkedIn button of \"\u003cmember\u003e\"",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 32,
+  "name": "the system should show profile card \"\u003clinkedin\u003e\" page of \"\u003cmember\u003e\"",
+  "keyword": "Then "
+});
+formatter.examples({
+  "line": 34,
+  "name": "",
+  "description": "",
+  "id": "access-the-social-networks;the-profile-card-has-linkedin;",
+  "rows": [
+    {
+      "cells": [
+        "member",
+        "linkedin"
+      ],
+      "line": 35,
+      "id": "access-the-social-networks;the-profile-card-has-linkedin;;1"
+    },
+    {
+      "cells": [
+        "Margarida",
+        "https://www.linkedin.com/in/anamargaridaweber/"
+      ],
+      "line": 36,
+      "id": "access-the-social-networks;the-profile-card-has-linkedin;;2"
+    },
+    {
+      "cells": [
+        "Joao",
+        "https://www.linkedin.com/in/jo%C3%A3o-fernandes-17b8a7114/"
+      ],
+      "line": 37,
+      "id": "access-the-social-networks;the-profile-card-has-linkedin;;3"
+    },
+    {
+      "cells": [
+        "Monica",
+        "https://www.linkedin.com/in/m%C3%B3nica-francisco-997746115/"
+      ],
+      "line": 38,
+      "id": "access-the-social-networks;the-profile-card-has-linkedin;;4"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.scenario({
+  "line": 36,
+  "name": "The profile card has LinkedIn",
+  "description": "",
+  "id": "access-the-social-networks;the-profile-card-has-linkedin;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 30,
+  "name": "the speaker has socialNetwork",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 31,
+  "name": "the user clicks on the LinkedIn button of \"Margarida\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 32,
+  "name": "the system should show profile card \"https://www.linkedin.com/in/anamargaridaweber/\" page of \"Margarida\"",
+  "matchedColumns": [
+    0,
+    1
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepdefsSocial.theSpeakerHasSocialNetwork()"
+});
+formatter.result({
+  "duration": 13372208,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Margarida",
+      "offset": 43
+    }
+  ],
+  "location": "StepdefsSocial.theUserClicksOnTheLinkedInButtonOf(String)"
+});
+formatter.result({
+  "duration": 900656971,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "https://www.linkedin.com/in/anamargaridaweber/",
+      "offset": 37
+    },
+    {
+      "val": "Margarida",
+      "offset": 94
+    }
+  ],
+  "location": "StepdefsSocial.theSystemShouldShowProfileCardPageOf(String,String)"
+});
+formatter.result({
+  "duration": 4129115,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 37,
+  "name": "The profile card has LinkedIn",
+  "description": "",
+  "id": "access-the-social-networks;the-profile-card-has-linkedin;;3",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 30,
+  "name": "the speaker has socialNetwork",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 31,
+  "name": "the user clicks on the LinkedIn button of \"Joao\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 32,
+  "name": "the system should show profile card \"https://www.linkedin.com/in/jo%C3%A3o-fernandes-17b8a7114/\" page of \"Joao\"",
+  "matchedColumns": [
+    0,
+    1
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepdefsSocial.theSpeakerHasSocialNetwork()"
+});
+formatter.result({
+  "duration": 12601232,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Joao",
+      "offset": 43
+    }
+  ],
+  "location": "StepdefsSocial.theUserClicksOnTheLinkedInButtonOf(String)"
+});
+formatter.result({
+  "duration": 814827785,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "https://www.linkedin.com/in/jo%C3%A3o-fernandes-17b8a7114/",
+      "offset": 37
+    },
+    {
+      "val": "Joao",
+      "offset": 106
+    }
+  ],
+  "location": "StepdefsSocial.theSystemShouldShowProfileCardPageOf(String,String)"
+});
+formatter.result({
+  "duration": 2437730,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 38,
+  "name": "The profile card has LinkedIn",
+  "description": "",
+  "id": "access-the-social-networks;the-profile-card-has-linkedin;;4",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 30,
+  "name": "the speaker has socialNetwork",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 31,
+  "name": "the user clicks on the LinkedIn button of \"Monica\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 32,
+  "name": "the system should show profile card \"https://www.linkedin.com/in/m%C3%B3nica-francisco-997746115/\" page of \"Monica\"",
+  "matchedColumns": [
+    0,
+    1
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepdefsSocial.theSpeakerHasSocialNetwork()"
+});
+formatter.result({
+  "duration": 13341418,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Monica",
+      "offset": 43
+    }
+  ],
+  "location": "StepdefsSocial.theUserClicksOnTheLinkedInButtonOf(String)"
+});
+formatter.result({
+  "duration": 827073497,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "https://www.linkedin.com/in/m%C3%B3nica-francisco-997746115/",
+      "offset": 37
+    },
+    {
+      "val": "Monica",
+      "offset": 108
+    }
+  ],
+  "location": "StepdefsSocial.theSystemShouldShowProfileCardPageOf(String,String)"
+});
+formatter.result({
+  "duration": 2065379,
+  "status": "passed"
+});
+formatter.uri("Show details of a profile card.feature");
 formatter.feature({
   "line": 1,
   "name": "Show details of a profile card",
@@ -98,14 +901,14 @@ formatter.match({
   "location": "StepdefsDetailsProfile.imIntoDeLandingPage()"
 });
 formatter.result({
-  "duration": 3674418576,
+  "duration": 380434037,
   "status": "passed"
 });
 formatter.match({
   "location": "StepdefsDetailsProfile.theLandingPageFinishedLoad()"
 });
 formatter.result({
-  "duration": 22579,
+  "duration": 29558,
   "status": "passed"
 });
 formatter.scenario({
@@ -146,7 +949,7 @@ formatter.match({
   "location": "StepdefsDetailsProfile.theUserClicksOnTheProfileCardOf(String)"
 });
 formatter.result({
-  "duration": 2413406200,
+  "duration": 1916677101,
   "status": "passed"
 });
 formatter.match({
@@ -175,7 +978,7 @@ formatter.match({
   "location": "StepdefsDetailsProfile.theSystemShouldShowAPageOfWithDetailsLikeAnd(String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 1448554174,
+  "duration": 780980371,
   "status": "passed"
 });
 formatter.background({
@@ -199,14 +1002,14 @@ formatter.match({
   "location": "StepdefsDetailsProfile.imIntoDeLandingPage()"
 });
 formatter.result({
-  "duration": 39856347,
+  "duration": 28249831,
   "status": "passed"
 });
 formatter.match({
   "location": "StepdefsDetailsProfile.theLandingPageFinishedLoad()"
 });
 formatter.result({
-  "duration": 24631,
+  "duration": 23811,
   "status": "passed"
 });
 formatter.scenario({
@@ -247,7 +1050,7 @@ formatter.match({
   "location": "StepdefsDetailsProfile.theUserClicksOnTheProfileCardOf(String)"
 });
 formatter.result({
-  "duration": 492291265,
+  "duration": 460041226,
   "status": "passed"
 });
 formatter.match({
@@ -276,7 +1079,7 @@ formatter.match({
   "location": "StepdefsDetailsProfile.theSystemShouldShowAPageOfWithDetailsLikeAnd(String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 366499403,
+  "duration": 365514951,
   "status": "passed"
 });
 formatter.background({
@@ -300,14 +1103,14 @@ formatter.match({
   "location": "StepdefsDetailsProfile.imIntoDeLandingPage()"
 });
 formatter.result({
-  "duration": 25681553,
+  "duration": 13547915,
   "status": "passed"
 });
 formatter.match({
   "location": "StepdefsDetailsProfile.theLandingPageFinishedLoad()"
 });
 formatter.result({
-  "duration": 21758,
+  "duration": 23811,
   "status": "passed"
 });
 formatter.scenario({
@@ -348,7 +1151,7 @@ formatter.match({
   "location": "StepdefsDetailsProfile.theUserClicksOnTheProfileCardOf(String)"
 });
 formatter.result({
-  "duration": 683903471,
+  "duration": 507736241,
   "status": "passed"
 });
 formatter.match({
@@ -377,7 +1180,7 @@ formatter.match({
   "location": "StepdefsDetailsProfile.theSystemShouldShowAPageOfWithDetailsLikeAnd(String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 356712357,
+  "duration": 337393616,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -464,14 +1267,14 @@ formatter.match({
   "location": "StepdefsDetailsProfile.imIntoDeLandingPage()"
 });
 formatter.result({
-  "duration": 118494273,
+  "duration": 9549349,
   "status": "passed"
 });
 formatter.match({
   "location": "StepdefsDetailsProfile.theLandingPageFinishedLoad()"
 });
 formatter.result({
-  "duration": 22168,
+  "duration": 17242,
   "status": "passed"
 });
 formatter.scenario({
@@ -510,7 +1313,7 @@ formatter.match({
   "location": "StepdefsDetailsProfile.theUserClicksOnTheProfileCardOf(String)"
 });
 formatter.result({
-  "duration": 293144593,
+  "duration": 279275233,
   "status": "passed"
 });
 formatter.match({
@@ -531,7 +1334,7 @@ formatter.match({
   "location": "StepdefsDetailsProfile.theSystemShouldShowAPageOfWithWorkDetailsLikeAnd(String,String,String)"
 });
 formatter.result({
-  "duration": 346052113,
+  "duration": 339464743,
   "status": "passed"
 });
 formatter.background({
@@ -555,14 +1358,14 @@ formatter.match({
   "location": "StepdefsDetailsProfile.imIntoDeLandingPage()"
 });
 formatter.result({
-  "duration": 43217770,
+  "duration": 12295797,
   "status": "passed"
 });
 formatter.match({
   "location": "StepdefsDetailsProfile.theLandingPageFinishedLoad()"
 });
 formatter.result({
-  "duration": 24632,
+  "duration": 32432,
   "status": "passed"
 });
 formatter.scenario({
@@ -601,7 +1404,7 @@ formatter.match({
   "location": "StepdefsDetailsProfile.theUserClicksOnTheProfileCardOf(String)"
 });
 formatter.result({
-  "duration": 297148496,
+  "duration": 275378067,
   "status": "passed"
 });
 formatter.match({
@@ -622,7 +1425,7 @@ formatter.match({
   "location": "StepdefsDetailsProfile.theSystemShouldShowAPageOfWithWorkDetailsLikeAnd(String,String,String)"
 });
 formatter.result({
-  "duration": 590766842,
+  "duration": 342583131,
   "status": "passed"
 });
 formatter.background({
@@ -646,14 +1449,14 @@ formatter.match({
   "location": "StepdefsDetailsProfile.imIntoDeLandingPage()"
 });
 formatter.result({
-  "duration": 21840219,
+  "duration": 12415672,
   "status": "passed"
 });
 formatter.match({
   "location": "StepdefsDetailsProfile.theLandingPageFinishedLoad()"
 });
 formatter.result({
-  "duration": 26684,
+  "duration": 20526,
   "status": "passed"
 });
 formatter.scenario({
@@ -692,7 +1495,7 @@ formatter.match({
   "location": "StepdefsDetailsProfile.theUserClicksOnTheProfileCardOf(String)"
 });
 formatter.result({
-  "duration": 285233261,
+  "duration": 270194300,
   "status": "passed"
 });
 formatter.match({
@@ -713,7 +1516,7 @@ formatter.match({
   "location": "StepdefsDetailsProfile.theSystemShouldShowAPageOfWithWorkDetailsLikeAnd(String,String,String)"
 });
 formatter.result({
-  "duration": 344060630,
+  "duration": 383291330,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -804,14 +1607,14 @@ formatter.match({
   "location": "StepdefsDetailsProfile.imIntoDeLandingPage()"
 });
 formatter.result({
-  "duration": 14717927,
+  "duration": 8732803,
   "status": "passed"
 });
 formatter.match({
   "location": "StepdefsDetailsProfile.theLandingPageFinishedLoad()"
 });
 formatter.result({
-  "duration": 21758,
+  "duration": 22169,
   "status": "passed"
 });
 formatter.scenario({
@@ -851,7 +1654,7 @@ formatter.match({
   "location": "StepdefsDetailsProfile.theUserClicksOnTheProfileCardOf(String)"
 });
 formatter.result({
-  "duration": 276020959,
+  "duration": 268746770,
   "status": "passed"
 });
 formatter.match({
@@ -876,7 +1679,7 @@ formatter.match({
   "location": "StepdefsDetailsProfile.theSystemShouldShowAPageOfWithEducationDetailsLikeAnd(String,String,String,String)"
 });
 formatter.result({
-  "duration": 352593916,
+  "duration": 329480642,
   "status": "passed"
 });
 formatter.background({
@@ -900,14 +1703,14 @@ formatter.match({
   "location": "StepdefsDetailsProfile.imIntoDeLandingPage()"
 });
 formatter.result({
-  "duration": 17324384,
+  "duration": 8196651,
   "status": "passed"
 });
 formatter.match({
   "location": "StepdefsDetailsProfile.theLandingPageFinishedLoad()"
 });
 formatter.result({
-  "duration": 23811,
+  "duration": 18064,
   "status": "passed"
 });
 formatter.scenario({
@@ -947,7 +1750,7 @@ formatter.match({
   "location": "StepdefsDetailsProfile.theUserClicksOnTheProfileCardOf(String)"
 });
 formatter.result({
-  "duration": 265998268,
+  "duration": 262178283,
   "status": "passed"
 });
 formatter.match({
@@ -972,7 +1775,7 @@ formatter.match({
   "location": "StepdefsDetailsProfile.theSystemShouldShowAPageOfWithEducationDetailsLikeAnd(String,String,String,String)"
 });
 formatter.result({
-  "duration": 353304133,
+  "duration": 327394327,
   "status": "passed"
 });
 formatter.background({
@@ -996,14 +1799,14 @@ formatter.match({
   "location": "StepdefsDetailsProfile.imIntoDeLandingPage()"
 });
 formatter.result({
-  "duration": 18191014,
+  "duration": 15124351,
   "status": "passed"
 });
 formatter.match({
   "location": "StepdefsDetailsProfile.theLandingPageFinishedLoad()"
 });
 formatter.result({
-  "duration": 28737,
+  "duration": 383025,
   "status": "passed"
 });
 formatter.scenario({
@@ -1043,7 +1846,7 @@ formatter.match({
   "location": "StepdefsDetailsProfile.theUserClicksOnTheProfileCardOf(String)"
 });
 formatter.result({
-  "duration": 280033072,
+  "duration": 281965439,
   "status": "passed"
 });
 formatter.match({
@@ -1068,7 +1871,7 @@ formatter.match({
   "location": "StepdefsDetailsProfile.theSystemShouldShowAPageOfWithEducationDetailsLikeAnd(String,String,String,String)"
 });
 formatter.result({
-  "duration": 338502048,
+  "duration": 358200531,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -1164,14 +1967,14 @@ formatter.match({
   "location": "StepdefsDetailsProfile.imIntoDeLandingPage()"
 });
 formatter.result({
-  "duration": 16946696,
+  "duration": 11557253,
   "status": "passed"
 });
 formatter.match({
   "location": "StepdefsDetailsProfile.theLandingPageFinishedLoad()"
 });
 formatter.result({
-  "duration": 31201,
+  "duration": 21758,
   "status": "passed"
 });
 formatter.scenario({
@@ -1267,14 +2070,14 @@ formatter.match({
   "location": "StepdefsDetailsProfile.imIntoDeLandingPage()"
 });
 formatter.result({
-  "duration": 17525544,
+  "duration": 13332386,
   "status": "passed"
 });
 formatter.match({
   "location": "StepdefsDetailsProfile.theLandingPageFinishedLoad()"
 });
 formatter.result({
-  "duration": 39001,
+  "duration": 23400,
   "status": "passed"
 });
 formatter.scenario({
@@ -1370,14 +2173,14 @@ formatter.match({
   "location": "StepdefsDetailsProfile.imIntoDeLandingPage()"
 });
 formatter.result({
-  "duration": 19434921,
+  "duration": 27891849,
   "status": "passed"
 });
 formatter.match({
   "location": "StepdefsDetailsProfile.theLandingPageFinishedLoad()"
 });
 formatter.result({
-  "duration": 24222,
+  "duration": 27916,
   "status": "passed"
 });
 formatter.scenario({
@@ -1448,6 +2251,415 @@ formatter.match({
     }
   ],
   "location": "StepdefsDetailsProfile.theSystemShouldShowAPageWithWithSkillsDetailsAnd(String,String,String,String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.uri("Show the profile cards.feature");
+formatter.feature({
+  "line": 1,
+  "name": "Show the profile cards",
+  "description": "As an User\r\nI want to check the profile cards of each member\r\nSo that I can get to know more about each member",
+  "id": "show-the-profile-cards",
+  "keyword": "Feature"
+});
+formatter.scenarioOutline({
+  "line": 6,
+  "name": "The profile cards has all the information",
+  "description": "",
+  "id": "show-the-profile-cards;the-profile-cards-has-all-the-information",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 7,
+  "name": "Im into de website",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 8,
+  "name": "the page finished load",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 9,
+  "name": "the website shows the profile cards of each \"\u003cmember\u003e\" with \"\u003cphoto\u003e\", \"\u003cname\u003e\", \"\u003cjob\u003e\", \"\u003cworkplace\u003e\",\"\u003clinkedIn\u003e\",\"\u003cfacebook\u003e\" and \"\u003cinstagram\u003e\"",
+  "keyword": "Then "
+});
+formatter.examples({
+  "line": 11,
+  "name": "",
+  "description": "",
+  "id": "show-the-profile-cards;the-profile-cards-has-all-the-information;",
+  "rows": [
+    {
+      "cells": [
+        "member",
+        "photo",
+        "name",
+        "job",
+        "workplace",
+        "linkedIn",
+        "facebook",
+        "instagram"
+      ],
+      "line": 12,
+      "id": "show-the-profile-cards;the-profile-cards-has-all-the-information;;1"
+    },
+    {
+      "cells": [
+        "Margarida",
+        "img/1.jpg",
+        "Ana Margarida Weber",
+        "Estudante do Mestrado de Eng.Informática",
+        "Instituto Politécnico de Leiria",
+        "https://www.linkedin.com/in/anamargaridaweber/",
+        "https://www.facebook.com/margarida.weber.9",
+        "https://www.instagram.com/margarida_weber/?hl\u003dpt"
+      ],
+      "line": 13,
+      "id": "show-the-profile-cards;the-profile-cards-has-all-the-information;;2"
+    },
+    {
+      "cells": [
+        "Joao",
+        "img/2.jpg",
+        "João Fernandes",
+        "Software Developer",
+        "Tecmic",
+        "https://www.linkedin.com/in/jo%C3%A3o-fernandes-17b8a7114/",
+        "https://www.facebook.com/joao.fernandes.90281",
+        "https://www.instagram.com/joaofpfernandes/?hl\u003dpt"
+      ],
+      "line": 14,
+      "id": "show-the-profile-cards;the-profile-cards-has-all-the-information;;3"
+    },
+    {
+      "cells": [
+        "Monica",
+        "img/3.jpg",
+        "Mónica Francisco",
+        "Estudante do Mestrado de Eng.Informática",
+        "Instituto Politécnico de Leiria",
+        "https://www.linkedin.com/in/m%C3%B3nica-francisco-997746115/",
+        "https://www.facebook.com/monicasmfrancisco",
+        ""
+      ],
+      "line": 15,
+      "id": "show-the-profile-cards;the-profile-cards-has-all-the-information;;4"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.scenario({
+  "line": 13,
+  "name": "The profile cards has all the information",
+  "description": "",
+  "id": "show-the-profile-cards;the-profile-cards-has-all-the-information;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 7,
+  "name": "Im into de website",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 8,
+  "name": "the page finished load",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 9,
+  "name": "the website shows the profile cards of each \"Margarida\" with \"img/1.jpg\", \"Ana Margarida Weber\", \"Estudante do Mestrado de Eng.Informática\", \"Instituto Politécnico de Leiria\",\"https://www.linkedin.com/in/anamargaridaweber/\",\"https://www.facebook.com/margarida.weber.9\" and \"https://www.instagram.com/margarida_weber/?hl\u003dpt\"",
+  "matchedColumns": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepdefsShowProfileCards.imIntoDeWebsite()"
+});
+formatter.result({
+  "duration": 419270216,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepdefsShowProfileCards.thePageFinishedLoad()"
+});
+formatter.result({
+  "duration": 14007709,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Margarida",
+      "offset": 45
+    },
+    {
+      "val": "img/1.jpg",
+      "offset": 62
+    },
+    {
+      "val": "Ana Margarida Weber",
+      "offset": 75
+    },
+    {
+      "val": "Estudante do Mestrado de Eng.Informática",
+      "offset": 98
+    },
+    {
+      "val": "Instituto Politécnico de Leiria",
+      "offset": 142
+    },
+    {
+      "val": "https://www.linkedin.com/in/anamargaridaweber/",
+      "offset": 176
+    },
+    {
+      "val": "https://www.facebook.com/margarida.weber.9",
+      "offset": 225
+    },
+    {
+      "val": "https://www.instagram.com/margarida_weber/?hl\u003dpt",
+      "offset": 274
+    }
+  ],
+  "location": "StepdefsShowProfileCards.theWebsiteShowsTheProfileCardsOfEachMemberWithAnd(String,String,String,String,String,String,String,String)"
+});
+formatter.result({
+  "duration": 2084446111,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 14,
+  "name": "The profile cards has all the information",
+  "description": "",
+  "id": "show-the-profile-cards;the-profile-cards-has-all-the-information;;3",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 7,
+  "name": "Im into de website",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 8,
+  "name": "the page finished load",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 9,
+  "name": "the website shows the profile cards of each \"Joao\" with \"img/2.jpg\", \"João Fernandes\", \"Software Developer\", \"Tecmic\",\"https://www.linkedin.com/in/jo%C3%A3o-fernandes-17b8a7114/\",\"https://www.facebook.com/joao.fernandes.90281\" and \"https://www.instagram.com/joaofpfernandes/?hl\u003dpt\"",
+  "matchedColumns": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepdefsShowProfileCards.imIntoDeWebsite()"
+});
+formatter.result({
+  "duration": 7398169,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepdefsShowProfileCards.thePageFinishedLoad()"
+});
+formatter.result({
+  "duration": 2322371,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Joao",
+      "offset": 45
+    },
+    {
+      "val": "img/2.jpg",
+      "offset": 57
+    },
+    {
+      "val": "João Fernandes",
+      "offset": 70
+    },
+    {
+      "val": "Software Developer",
+      "offset": 88
+    },
+    {
+      "val": "Tecmic",
+      "offset": 110
+    },
+    {
+      "val": "https://www.linkedin.com/in/jo%C3%A3o-fernandes-17b8a7114/",
+      "offset": 119
+    },
+    {
+      "val": "https://www.facebook.com/joao.fernandes.90281",
+      "offset": 180
+    },
+    {
+      "val": "https://www.instagram.com/joaofpfernandes/?hl\u003dpt",
+      "offset": 232
+    }
+  ],
+  "location": "StepdefsShowProfileCards.theWebsiteShowsTheProfileCardsOfEachMemberWithAnd(String,String,String,String,String,String,String,String)"
+});
+formatter.result({
+  "duration": 266070521,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 15,
+  "name": "The profile cards has all the information",
+  "description": "",
+  "id": "show-the-profile-cards;the-profile-cards-has-all-the-information;;4",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 7,
+  "name": "Im into de website",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 8,
+  "name": "the page finished load",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 9,
+  "name": "the website shows the profile cards of each \"Monica\" with \"img/3.jpg\", \"Mónica Francisco\", \"Estudante do Mestrado de Eng.Informática\", \"Instituto Politécnico de Leiria\",\"https://www.linkedin.com/in/m%C3%B3nica-francisco-997746115/\",\"https://www.facebook.com/monicasmfrancisco\" and \"\"",
+  "matchedColumns": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepdefsShowProfileCards.imIntoDeWebsite()"
+});
+formatter.result({
+  "duration": 5387391,
+  "status": "passed"
+});
+formatter.match({
+  "location": "StepdefsShowProfileCards.thePageFinishedLoad()"
+});
+formatter.result({
+  "duration": 2920103,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Monica",
+      "offset": 45
+    },
+    {
+      "val": "img/3.jpg",
+      "offset": 59
+    },
+    {
+      "val": "Mónica Francisco",
+      "offset": 72
+    },
+    {
+      "val": "Estudante do Mestrado de Eng.Informática",
+      "offset": 92
+    },
+    {
+      "val": "Instituto Politécnico de Leiria",
+      "offset": 136
+    },
+    {
+      "val": "https://www.linkedin.com/in/m%C3%B3nica-francisco-997746115/",
+      "offset": 170
+    },
+    {
+      "val": "https://www.facebook.com/monicasmfrancisco",
+      "offset": 233
+    },
+    {
+      "val": "",
+      "offset": 282
+    }
+  ],
+  "location": "StepdefsShowProfileCards.theWebsiteShowsTheProfileCardsOfEachMemberWithAnd(String,String,String,String,String,String,String,String)"
+});
+formatter.result({
+  "duration": 275254498,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 17,
+  "name": "The profile card doesn\u0027t have photo",
+  "description": "",
+  "id": "show-the-profile-cards;the-profile-card-doesn\u0027t-have-photo",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 18,
+  "name": "is not possible show \u003cphoto\u003e",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 19,
+  "name": "the user accesses the site",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 20,
+  "name": "the system should show a \"imagedefault.jpg\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepdefsShowProfileCards.isNotPossibleShowPhoto()"
+});
+formatter.result({
+  "duration": 2028020,
+  "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat StepdefsShowProfileCards.isNotPossibleShowPhoto(StepdefsShowProfileCards.java:83)\r\n\tat ✽.Given is not possible show \u003cphoto\u003e(Show the profile cards.feature:18)\r\n",
+  "status": "pending"
+});
+formatter.match({
+  "location": "StepdefsShowProfileCards.theUserAccessesTheSite()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "imagedefault.jpg",
+      "offset": 26
+    }
+  ],
+  "location": "StepdefsShowProfileCards.theSystemShouldShowA(String)"
 });
 formatter.result({
   "status": "skipped"

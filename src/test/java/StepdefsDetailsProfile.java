@@ -34,7 +34,7 @@ public class StepdefsDetailsProfile {
 
     @Given("^Im into de landing page$")
     public void imIntoDeLandingPage() throws Throwable {
-        driver.get("http://stagingapp-duplacapicua.1d35.starter-us-east-1.openshiftapps.com/");
+        driver.get("http://dupla-capicua-dupla-capicua.7e14.starter-us-west-2.openshiftapps.com/");
     }
 
     @When("^the landing page finished load$")
