@@ -1,9 +1,15 @@
-#Feature: Access the social networks
+Feature: Access the social networks
+  Scenario Outline: The profile card has Instagram
+    Given the speaker has "<instagram>"
+    When the user clicks on the Instagram button
+    Then the system should show each "<member>" his Instagram page
 
-# Scenario: The profile card has Instagram
-#  Given the speaker has <instagram>
-#  When the user clicks on the Instagram button
-# Then the system should show speaker Instagram page
+    Examples:
+
+      | member     |instagram                                                |
+      | Margarida  |https://www.instagram.com/?hl=pt                         |
+      | Joao       |https://www.instagram.com/?hl=pt                         |
+      | Monica     |https://www.instagram.com/?hl=pt                         |
 #
 # Scenario: The profile card has Facebook
 #  Given the speaker has <facebook>
