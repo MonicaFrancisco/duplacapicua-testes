@@ -80,10 +80,10 @@ public class StepdefsShowProfileCards {
 
     @Then("^the system must hace a disable \"([^\"]*)\" link with the color grey of \"([^\"]*)\"$")
     public void theSystemMustHaceADisableLinkWithTheColorGreyOf(String status, String member) throws Throwable {
-        int position = 0;
+        int pos = 0;
         if(member.toLowerCase().equals("monica")){
-            position = 3;
+            pos = 3;
         }
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id='team']/div/div[3]/div["+position+"]/ul/li[3]/a[@class='"+status+"']")));
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id='team']/div/div[3]/div["+pos+"]/ul/li[3]/a[@class='"+status+"']")));
     }
 }
