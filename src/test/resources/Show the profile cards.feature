@@ -14,37 +14,13 @@ Feature: Show the profile cards
       | Joao       | img/2.jpg | João Fernandes     | Software Developer                       |Tecmic                         |https://www.linkedin.com/in/jo%C3%A3o-fernandes-17b8a7114/    |https://www.facebook.com/joao.fernandes.90281         |https://www.instagram.com/joaofpfernandes/?hl=pt         |
       | Monica     | img/3.jpg | Mónica Francisco   | Estudante do Mestrado de Eng.Informática |Instituto Politécnico de Leiria|https://www.linkedin.com/in/m%C3%B3nica-francisco-997746115/  |https://www.facebook.com/monicasmfrancisco             |                                                         |
 
- Scenario: The profile card doesn't have photo
-  Given is not possible show <photo>
-  When the user accesses the site
-  Then the system should show a "imagedefault.jpg"
 
-# Scenario: The profile card doesn't have name
-#  Given the profile card is not possible show <name>
-#  When the user accesses the site
-#  Then the system should say "An?nimo"
-#
-# Scenario: The profile card doesn't have job
-#  Given the profile card is not possible show <job>
-#  When the user accesses the site
-#  Then the system should show "N?o ? possivel mostrar!"
-#
-# Scenario: The profile card doesn't have workplace
-#  Given the profile card is not possible show <workplace>
-#  When the user accesses the site
-#  Then the system should show "N?o ? possivel mostrar!"
-#
-# Scenario: The profile card doesn't have LinkedIn
-#  Given the speaker doesn't have <linkedIn>
-#  When the user accesses the site
-#  Then the system should disable the LinkedIn button with the color grey
-#
-# Scenario: The profile card doesn't have Facebook
-#  Given the speaker doesn't have <facebook>
-#  When the user accesses the site
-#  Then the system should disable the Facebook button with the color grey
-#
-# Scenario: The profile card doesn't have Instagram
-#  Given the speaker doesn't have <instagram>
-#  When the user accesses the site
-#  Then the system should disable the Instagram button with the color grey
+
+  Scenario Outline: : The profile card doesn´t have Instagram
+    When the user clicks on the Instagram button of "<member>"
+    Then the system must hace a disable "<instagram>" link with the color grey of "<member>"
+
+    Examples:
+      |member         |instagram   |
+      |Monica         |  disabled  |
+

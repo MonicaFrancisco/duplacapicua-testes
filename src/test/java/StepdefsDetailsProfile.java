@@ -1,4 +1,3 @@
-import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -39,10 +38,8 @@ public class StepdefsDetailsProfile {
 
     @When("^the landing page finished load$")
     public void theLandingPageFinishedLoad() throws Throwable {
-
-     //  wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//h1")));
-       // wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//h3")));
-        //wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//section[2]/div/div/div/h3")));
+    // --->.//section[1]/div/div/div/h3
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id='team']/div/div[3]/div[2]/h4")));
     }
 
     @When("^the user clicks on the profile card of \"([^\"]*)\"$")
@@ -109,7 +106,7 @@ public class StepdefsDetailsProfile {
         if(member.equals("Margarida")){
             assertEquals(school, driver.findElement(By.xpath("//section[2]/div/div/div/h3")).getText());
             assertEquals(course, driver.findElement(By.xpath("//div/div/div/div[2]")).getText());
-           // assertEquals(date, driver.findElement(By.xpath("//section[2]/div/div/div/div")).getText());
+           // assertEquals(date, driver.findElement(By.xpath("//section[2]//div[@class='time']")).getText());
         }
         else if(member.equals("Joao")){
             assertEquals(school, driver.findElement(By.xpath("//section[2]/div/div/div/h3")).getText());

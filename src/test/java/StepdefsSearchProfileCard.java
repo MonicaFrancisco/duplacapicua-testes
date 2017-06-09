@@ -46,7 +46,8 @@ public class StepdefsSearchProfileCard {
         assertTrue(driver.findElement(By.xpath("//body")).getText().contains(text));
     }
 
-//    @Then("^the system should say \"([^\"]*)\"$")
+// corre bem quando faz mal a pesquisa
+// @Then("^the system should say \"([^\"]*)\"$")
 //    public void theSystemShouldSay(String arg0) throws Throwable {
 //        String text = driver.findElement(By.id("search")).getAttribute("value");
 //

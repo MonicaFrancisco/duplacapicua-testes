@@ -77,23 +77,13 @@ public class StepdefsShowProfileCards {
 
     }
 
-    @Given("^is not possible show <photo>$")
-    public void isNotPossibleShowPhoto() throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
-    }
 
-
-    @When("^the user accesses the site$")
-    public void theUserAccessesTheSite() throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
-    }
-
-
-    @Then("^the system should show a \"([^\"]*)\"$")
-    public void theSystemShouldShowA(String arg0) throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+    @Then("^the system must hace a disable \"([^\"]*)\" link with the color grey of \"([^\"]*)\"$")
+    public void theSystemMustHaceADisableLinkWithTheColorGreyOf(String status, String member) throws Throwable {
+        int position = 0;
+        if(member.toLowerCase().equals("monica")){
+            position = 3;
+        }
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id='team']/div/div[3]/div["+position+"]/ul/li[3]/a[@class='"+status+"']")));
     }
 }

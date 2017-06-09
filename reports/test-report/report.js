@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.scenarioOutline({
-  "line": 4,
+  "line": 7,
   "name": "The profile card has Instagram",
   "description": "",
   "id": "access-the-social-networks;the-profile-card-has-instagram",
@@ -15,22 +15,17 @@ formatter.scenarioOutline({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 5,
-  "name": "the speaker has socialNetwork",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 6,
+  "line": 8,
   "name": "the user clicks on the Instagram button of \"\u003cmember\u003e\"",
   "keyword": "When "
 });
 formatter.step({
-  "line": 7,
+  "line": 9,
   "name": "the system should show speaker \"\u003cinstagram\u003e\" page of \"\u003cmember\u003e\"",
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 9,
+  "line": 11,
   "name": "",
   "description": "",
   "id": "access-the-social-networks;the-profile-card-has-instagram;",
@@ -40,7 +35,7 @@ formatter.examples({
         "member",
         "instagram"
       ],
-      "line": 11,
+      "line": 13,
       "id": "access-the-social-networks;the-profile-card-has-instagram;;1"
     },
     {
@@ -48,7 +43,7 @@ formatter.examples({
         "Margarida",
         "https://www.instagram.com/margarida_weber/?hl\u003dpt"
       ],
-      "line": 12,
+      "line": 14,
       "id": "access-the-social-networks;the-profile-card-has-instagram;;2"
     },
     {
@@ -56,7 +51,7 @@ formatter.examples({
         "Joao",
         "https://www.instagram.com/joaofpfernandes/?hl\u003dpt"
       ],
-      "line": 13,
+      "line": 15,
       "id": "access-the-social-networks;the-profile-card-has-instagram;;3"
     },
     {
@@ -64,14 +59,33 @@ formatter.examples({
         "Monica",
         ""
       ],
-      "line": 14,
+      "line": 16,
       "id": "access-the-social-networks;the-profile-card-has-instagram;;4"
     }
   ],
   "keyword": "Examples"
 });
+formatter.background({
+  "line": 4,
+  "name": "",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 5,
+  "name": "the speaker has socialNetwork",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "StepdefsSocial.theSpeakerHasSocialNetwork()"
+});
+formatter.result({
+  "duration": 4317546112,
+  "status": "passed"
+});
 formatter.scenario({
-  "line": 12,
+  "line": 14,
   "name": "The profile card has Instagram",
   "description": "",
   "id": "access-the-social-networks;the-profile-card-has-instagram;;2",
@@ -79,12 +93,7 @@ formatter.scenario({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 5,
-  "name": "the speaker has socialNetwork",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 6,
+  "line": 8,
   "name": "the user clicks on the Instagram button of \"Margarida\"",
   "matchedColumns": [
     0
@@ -92,20 +101,13 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 7,
+  "line": 9,
   "name": "the system should show speaker \"https://www.instagram.com/margarida_weber/?hl\u003dpt\" page of \"Margarida\"",
   "matchedColumns": [
     0,
     1
   ],
   "keyword": "Then "
-});
-formatter.match({
-  "location": "StepdefsSocial.theSpeakerHasSocialNetwork()"
-});
-formatter.result({
-  "duration": 7180116283,
-  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -117,7 +119,7 @@ formatter.match({
   "location": "StepdefsSocial.theUserClicksOnTheInstagramButtonOf(String)"
 });
 formatter.result({
-  "duration": 3743220420,
+  "duration": 2881322631,
   "status": "passed"
 });
 formatter.match({
@@ -134,11 +136,30 @@ formatter.match({
   "location": "StepdefsSocial.theSystemShouldShowSpeakerPageOf(String,String)"
 });
 formatter.result({
-  "duration": 722714118,
+  "duration": 141167048,
+  "status": "passed"
+});
+formatter.background({
+  "line": 4,
+  "name": "",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 5,
+  "name": "the speaker has socialNetwork",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "StepdefsSocial.theSpeakerHasSocialNetwork()"
+});
+formatter.result({
+  "duration": 48241842,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 13,
+  "line": 15,
   "name": "The profile card has Instagram",
   "description": "",
   "id": "access-the-social-networks;the-profile-card-has-instagram;;3",
@@ -146,12 +167,7 @@ formatter.scenario({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 5,
-  "name": "the speaker has socialNetwork",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 6,
+  "line": 8,
   "name": "the user clicks on the Instagram button of \"Joao\"",
   "matchedColumns": [
     0
@@ -159,20 +175,13 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 7,
+  "line": 9,
   "name": "the system should show speaker \"https://www.instagram.com/joaofpfernandes/?hl\u003dpt\" page of \"Joao\"",
   "matchedColumns": [
     0,
     1
   ],
   "keyword": "Then "
-});
-formatter.match({
-  "location": "StepdefsSocial.theSpeakerHasSocialNetwork()"
-});
-formatter.result({
-  "duration": 197240190,
-  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -184,7 +193,7 @@ formatter.match({
   "location": "StepdefsSocial.theUserClicksOnTheInstagramButtonOf(String)"
 });
 formatter.result({
-  "duration": 457220220,
+  "duration": 343530225,
   "status": "passed"
 });
 formatter.match({
@@ -201,11 +210,30 @@ formatter.match({
   "location": "StepdefsSocial.theSystemShouldShowSpeakerPageOf(String,String)"
 });
 formatter.result({
-  "duration": 26857359,
+  "duration": 10273525,
+  "status": "passed"
+});
+formatter.background({
+  "line": 4,
+  "name": "",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 5,
+  "name": "the speaker has socialNetwork",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "StepdefsSocial.theSpeakerHasSocialNetwork()"
+});
+formatter.result({
+  "duration": 39374385,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 14,
+  "line": 16,
   "name": "The profile card has Instagram",
   "description": "",
   "id": "access-the-social-networks;the-profile-card-has-instagram;;4",
@@ -213,12 +241,7 @@ formatter.scenario({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 5,
-  "name": "the speaker has socialNetwork",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 6,
+  "line": 8,
   "name": "the user clicks on the Instagram button of \"Monica\"",
   "matchedColumns": [
     0
@@ -226,20 +249,13 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 7,
+  "line": 9,
   "name": "the system should show speaker \"\" page of \"Monica\"",
   "matchedColumns": [
     0,
     1
   ],
   "keyword": "Then "
-});
-formatter.match({
-  "location": "StepdefsSocial.theSpeakerHasSocialNetwork()"
-});
-formatter.result({
-  "duration": 187702460,
-  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -251,7 +267,7 @@ formatter.match({
   "location": "StepdefsSocial.theUserClicksOnTheInstagramButtonOf(String)"
 });
 formatter.result({
-  "duration": 321144771,
+  "duration": 266561927,
   "status": "passed"
 });
 formatter.match({
@@ -268,11 +284,11 @@ formatter.match({
   "location": "StepdefsSocial.theSystemShouldShowSpeakerPageOf(String,String)"
 });
 formatter.result({
-  "duration": 89149,
+  "duration": 94833,
   "status": "passed"
 });
 formatter.scenarioOutline({
-  "line": 17,
+  "line": 19,
   "name": "The profile card has Facebook",
   "description": "",
   "id": "access-the-social-networks;the-profile-card-has-facebook",
@@ -280,22 +296,17 @@ formatter.scenarioOutline({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 18,
-  "name": "the speaker has socialNetwork",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 19,
+  "line": 20,
   "name": "the user clicks on  the Facebook button of \"\u003cmember\u003e\"",
   "keyword": "When "
 });
 formatter.step({
-  "line": 20,
+  "line": 21,
   "name": "the website should show speaker \"\u003cfacebook\u003e\" page of \"\u003cmember\u003e\"",
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 22,
+  "line": 23,
   "name": "",
   "description": "",
   "id": "access-the-social-networks;the-profile-card-has-facebook;",
@@ -305,7 +316,7 @@ formatter.examples({
         "member",
         "facebook"
       ],
-      "line": 23,
+      "line": 24,
       "id": "access-the-social-networks;the-profile-card-has-facebook;;1"
     },
     {
@@ -313,7 +324,7 @@ formatter.examples({
         "Margarida",
         "https://www.facebook.com/margarida.weber.9"
       ],
-      "line": 24,
+      "line": 25,
       "id": "access-the-social-networks;the-profile-card-has-facebook;;2"
     },
     {
@@ -321,7 +332,7 @@ formatter.examples({
         "Joao",
         "https://www.facebook.com/joao.fernandes.90281"
       ],
-      "line": 25,
+      "line": 26,
       "id": "access-the-social-networks;the-profile-card-has-facebook;;3"
     },
     {
@@ -329,14 +340,33 @@ formatter.examples({
         "Monica",
         "https://www.facebook.com/monicasmfrancisco"
       ],
-      "line": 26,
+      "line": 27,
       "id": "access-the-social-networks;the-profile-card-has-facebook;;4"
     }
   ],
   "keyword": "Examples"
 });
+formatter.background({
+  "line": 4,
+  "name": "",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 5,
+  "name": "the speaker has socialNetwork",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "StepdefsSocial.theSpeakerHasSocialNetwork()"
+});
+formatter.result({
+  "duration": 170198528,
+  "status": "passed"
+});
 formatter.scenario({
-  "line": 24,
+  "line": 25,
   "name": "The profile card has Facebook",
   "description": "",
   "id": "access-the-social-networks;the-profile-card-has-facebook;;2",
@@ -344,12 +374,7 @@ formatter.scenario({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 18,
-  "name": "the speaker has socialNetwork",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 19,
+  "line": 20,
   "name": "the user clicks on  the Facebook button of \"Margarida\"",
   "matchedColumns": [
     0
@@ -357,20 +382,13 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 20,
+  "line": 21,
   "name": "the website should show speaker \"https://www.facebook.com/margarida.weber.9\" page of \"Margarida\"",
   "matchedColumns": [
     0,
     1
   ],
   "keyword": "Then "
-});
-formatter.match({
-  "location": "StepdefsSocial.theSpeakerHasSocialNetwork()"
-});
-formatter.result({
-  "duration": 220813217,
-  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -382,7 +400,7 @@ formatter.match({
   "location": "StepdefsSocial.theUserClicksOnTheFacebookButtonOf(String)"
 });
 formatter.result({
-  "duration": 1388303972,
+  "duration": 1311108584,
   "status": "passed"
 });
 formatter.match({
@@ -399,11 +417,30 @@ formatter.match({
   "location": "StepdefsSocial.theWebsiteShouldShowSpeakerPageOf(String,String)"
 });
 formatter.result({
-  "duration": 5873300,
+  "duration": 5633710,
+  "status": "passed"
+});
+formatter.background({
+  "line": 4,
+  "name": "",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 5,
+  "name": "the speaker has socialNetwork",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "StepdefsSocial.theSpeakerHasSocialNetwork()"
+});
+formatter.result({
+  "duration": 23578816,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 25,
+  "line": 26,
   "name": "The profile card has Facebook",
   "description": "",
   "id": "access-the-social-networks;the-profile-card-has-facebook;;3",
@@ -411,12 +448,7 @@ formatter.scenario({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 18,
-  "name": "the speaker has socialNetwork",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 19,
+  "line": 20,
   "name": "the user clicks on  the Facebook button of \"Joao\"",
   "matchedColumns": [
     0
@@ -424,20 +456,13 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 20,
+  "line": 21,
   "name": "the website should show speaker \"https://www.facebook.com/joao.fernandes.90281\" page of \"Joao\"",
   "matchedColumns": [
     0,
     1
   ],
   "keyword": "Then "
-});
-formatter.match({
-  "location": "StepdefsSocial.theSpeakerHasSocialNetwork()"
-});
-formatter.result({
-  "duration": 20411885,
-  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -449,7 +474,7 @@ formatter.match({
   "location": "StepdefsSocial.theUserClicksOnTheFacebookButtonOf(String)"
 });
 formatter.result({
-  "duration": 543229172,
+  "duration": 516292516,
   "status": "passed"
 });
 formatter.match({
@@ -466,11 +491,30 @@ formatter.match({
   "location": "StepdefsSocial.theWebsiteShouldShowSpeakerPageOf(String,String)"
 });
 formatter.result({
-  "duration": 3243808,
+  "duration": 5864427,
+  "status": "passed"
+});
+formatter.background({
+  "line": 4,
+  "name": "",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 5,
+  "name": "the speaker has socialNetwork",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "StepdefsSocial.theSpeakerHasSocialNetwork()"
+});
+formatter.result({
+  "duration": 17532934,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 26,
+  "line": 27,
   "name": "The profile card has Facebook",
   "description": "",
   "id": "access-the-social-networks;the-profile-card-has-facebook;;4",
@@ -478,12 +522,7 @@ formatter.scenario({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 18,
-  "name": "the speaker has socialNetwork",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 19,
+  "line": 20,
   "name": "the user clicks on  the Facebook button of \"Monica\"",
   "matchedColumns": [
     0
@@ -491,20 +530,13 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 20,
+  "line": 21,
   "name": "the website should show speaker \"https://www.facebook.com/monicasmfrancisco\" page of \"Monica\"",
   "matchedColumns": [
     0,
     1
   ],
   "keyword": "Then "
-});
-formatter.match({
-  "location": "StepdefsSocial.theSpeakerHasSocialNetwork()"
-});
-formatter.result({
-  "duration": 26361772,
-  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -516,7 +548,7 @@ formatter.match({
   "location": "StepdefsSocial.theUserClicksOnTheFacebookButtonOf(String)"
 });
 formatter.result({
-  "duration": 514002475,
+  "duration": 472696236,
   "status": "passed"
 });
 formatter.match({
@@ -533,21 +565,16 @@ formatter.match({
   "location": "StepdefsSocial.theWebsiteShouldShowSpeakerPageOf(String,String)"
 });
 formatter.result({
-  "duration": 3816389,
+  "duration": 12701811,
   "status": "passed"
 });
 formatter.scenarioOutline({
-  "line": 29,
+  "line": 30,
   "name": "The profile card has LinkedIn",
   "description": "",
   "id": "access-the-social-networks;the-profile-card-has-linkedin",
   "type": "scenario_outline",
   "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 30,
-  "name": "the speaker has socialNetwork",
-  "keyword": "Given "
 });
 formatter.step({
   "line": 31,
@@ -600,6 +627,25 @@ formatter.examples({
   ],
   "keyword": "Examples"
 });
+formatter.background({
+  "line": 4,
+  "name": "",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 5,
+  "name": "the speaker has socialNetwork",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "StepdefsSocial.theSpeakerHasSocialNetwork()"
+});
+formatter.result({
+  "duration": 19311352,
+  "status": "passed"
+});
 formatter.scenario({
   "line": 36,
   "name": "The profile card has LinkedIn",
@@ -607,11 +653,6 @@ formatter.scenario({
   "id": "access-the-social-networks;the-profile-card-has-linkedin;;2",
   "type": "scenario",
   "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 30,
-  "name": "the speaker has socialNetwork",
-  "keyword": "Given "
 });
 formatter.step({
   "line": 31,
@@ -631,13 +672,6 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "StepdefsSocial.theSpeakerHasSocialNetwork()"
-});
-formatter.result({
-  "duration": 220852119,
-  "status": "passed"
-});
-formatter.match({
   "arguments": [
     {
       "val": "Margarida",
@@ -647,7 +681,7 @@ formatter.match({
   "location": "StepdefsSocial.theUserClicksOnTheLinkedInButtonOf(String)"
 });
 formatter.result({
-  "duration": 1070308593,
+  "duration": 875944271,
   "status": "passed"
 });
 formatter.match({
@@ -664,7 +698,26 @@ formatter.match({
   "location": "StepdefsSocial.theSystemShouldShowProfileCardPageOf(String,String)"
 });
 formatter.result({
-  "duration": 3777082,
+  "duration": 2485351,
+  "status": "passed"
+});
+formatter.background({
+  "line": 4,
+  "name": "",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 5,
+  "name": "the speaker has socialNetwork",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "StepdefsSocial.theSpeakerHasSocialNetwork()"
+});
+formatter.result({
+  "duration": 17668819,
   "status": "passed"
 });
 formatter.scenario({
@@ -674,11 +727,6 @@ formatter.scenario({
   "id": "access-the-social-networks;the-profile-card-has-linkedin;;3",
   "type": "scenario",
   "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 30,
-  "name": "the speaker has socialNetwork",
-  "keyword": "Given "
 });
 formatter.step({
   "line": 31,
@@ -698,13 +746,6 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "StepdefsSocial.theSpeakerHasSocialNetwork()"
-});
-formatter.result({
-  "duration": 27282438,
-  "status": "passed"
-});
-formatter.match({
   "arguments": [
     {
       "val": "Joao",
@@ -714,7 +755,7 @@ formatter.match({
   "location": "StepdefsSocial.theUserClicksOnTheLinkedInButtonOf(String)"
 });
 formatter.result({
-  "duration": 919258134,
+  "duration": 888029055,
   "status": "passed"
 });
 formatter.match({
@@ -731,7 +772,26 @@ formatter.match({
   "location": "StepdefsSocial.theSystemShouldShowProfileCardPageOf(String,String)"
 });
 formatter.result({
-  "duration": 2397299,
+  "duration": 2795302,
+  "status": "passed"
+});
+formatter.background({
+  "line": 4,
+  "name": "",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 5,
+  "name": "the speaker has socialNetwork",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "StepdefsSocial.theSpeakerHasSocialNetwork()"
+});
+formatter.result({
+  "duration": 26069504,
   "status": "passed"
 });
 formatter.scenario({
@@ -741,11 +801,6 @@ formatter.scenario({
   "id": "access-the-social-networks;the-profile-card-has-linkedin;;4",
   "type": "scenario",
   "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 30,
-  "name": "the speaker has socialNetwork",
-  "keyword": "Given "
 });
 formatter.step({
   "line": 31,
@@ -765,13 +820,6 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "StepdefsSocial.theSpeakerHasSocialNetwork()"
-});
-formatter.result({
-  "duration": 12861773,
-  "status": "passed"
-});
-formatter.match({
   "arguments": [
     {
       "val": "Monica",
@@ -781,7 +829,7 @@ formatter.match({
   "location": "StepdefsSocial.theUserClicksOnTheLinkedInButtonOf(String)"
 });
 formatter.result({
-  "duration": 927081366,
+  "duration": 834317306,
   "status": "passed"
 });
 formatter.match({
@@ -798,7 +846,7 @@ formatter.match({
   "location": "StepdefsSocial.theSystemShouldShowProfileCardPageOf(String,String)"
 });
 formatter.result({
-  "duration": 4932373,
+  "duration": 2746860,
   "status": "passed"
 });
 formatter.uri("Search a profile card.feature");
@@ -836,21 +884,21 @@ formatter.match({
   "location": "StepdefsSearchProfileCard.imIntoTheWebsite()"
 });
 formatter.result({
-  "duration": 473172222,
+  "duration": 390201377,
   "status": "passed"
 });
 formatter.match({
   "location": "StepdefsSearchProfileCard.iSearchForSomeKeyworks()"
 });
 formatter.result({
-  "duration": 2311254091,
+  "duration": 1807501458,
   "status": "passed"
 });
 formatter.match({
   "location": "StepdefsSearchProfileCard.theWebsiteShouldAdjustTheProfileCardsContent()"
 });
 formatter.result({
-  "duration": 210745862,
+  "duration": 123356595,
   "status": "passed"
 });
 formatter.scenario({
@@ -880,14 +928,14 @@ formatter.match({
   "location": "StepdefsSearchProfileCard.imIntoTheWebsite()"
 });
 formatter.result({
-  "duration": 27609453,
+  "duration": 22197791,
   "status": "passed"
 });
 formatter.match({
   "location": "StepdefsSearchProfileCard.iSearchForSomeKeyworks()"
 });
 formatter.result({
-  "duration": 327085337,
+  "duration": 278249318,
   "status": "passed"
 });
 formatter.match({});
@@ -994,14 +1042,14 @@ formatter.match({
   "location": "StepdefsDetailsProfile.imIntoDeLandingPage()"
 });
 formatter.result({
-  "duration": 480905089,
+  "duration": 389824510,
   "status": "passed"
 });
 formatter.match({
   "location": "StepdefsDetailsProfile.theLandingPageFinishedLoad()"
 });
 formatter.result({
-  "duration": 28771,
+  "duration": 3477603,
   "status": "passed"
 });
 formatter.scenario({
@@ -1042,7 +1090,7 @@ formatter.match({
   "location": "StepdefsDetailsProfile.theUserClicksOnTheProfileCardOf(String)"
 });
 formatter.result({
-  "duration": 2430718647,
+  "duration": 1908054730,
   "status": "passed"
 });
 formatter.match({
@@ -1071,7 +1119,7 @@ formatter.match({
   "location": "StepdefsDetailsProfile.theSystemShouldShowAPageOfWithDetailsLikeAnd(String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 1110631508,
+  "duration": 942763436,
   "status": "passed"
 });
 formatter.background({
@@ -1095,14 +1143,14 @@ formatter.match({
   "location": "StepdefsDetailsProfile.imIntoDeLandingPage()"
 });
 formatter.result({
-  "duration": 24998197,
+  "duration": 19939874,
   "status": "passed"
 });
 formatter.match({
   "location": "StepdefsDetailsProfile.theLandingPageFinishedLoad()"
 });
 formatter.result({
-  "duration": 25529,
+  "duration": 13134921,
   "status": "passed"
 });
 formatter.scenario({
@@ -1143,7 +1191,7 @@ formatter.match({
   "location": "StepdefsDetailsProfile.theUserClicksOnTheProfileCardOf(String)"
 });
 formatter.result({
-  "duration": 645142311,
+  "duration": 475607308,
   "status": "passed"
 });
 formatter.match({
@@ -1172,7 +1220,7 @@ formatter.match({
   "location": "StepdefsDetailsProfile.theSystemShouldShowAPageOfWithDetailsLikeAnd(String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 487878164,
+  "duration": 343824165,
   "status": "passed"
 });
 formatter.background({
@@ -1196,14 +1244,14 @@ formatter.match({
   "location": "StepdefsDetailsProfile.imIntoDeLandingPage()"
 });
 formatter.result({
-  "duration": 20938269,
+  "duration": 14000730,
   "status": "passed"
 });
 formatter.match({
   "location": "StepdefsDetailsProfile.theLandingPageFinishedLoad()"
 });
 formatter.result({
-  "duration": 26744,
+  "duration": 4992050,
   "status": "passed"
 });
 formatter.scenario({
@@ -1244,7 +1292,7 @@ formatter.match({
   "location": "StepdefsDetailsProfile.theUserClicksOnTheProfileCardOf(String)"
 });
 formatter.result({
-  "duration": 517168886,
+  "duration": 462008077,
   "status": "passed"
 });
 formatter.match({
@@ -1273,7 +1321,7 @@ formatter.match({
   "location": "StepdefsDetailsProfile.theSystemShouldShowAPageOfWithDetailsLikeAnd(String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 1377414014,
+  "duration": 334594209,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -1360,14 +1408,14 @@ formatter.match({
   "location": "StepdefsDetailsProfile.imIntoDeLandingPage()"
 });
 formatter.result({
-  "duration": 13896712,
+  "duration": 71395348,
   "status": "passed"
 });
 formatter.match({
   "location": "StepdefsDetailsProfile.theLandingPageFinishedLoad()"
 });
 formatter.result({
-  "duration": 24313,
+  "duration": 8474990,
   "status": "passed"
 });
 formatter.scenario({
@@ -1406,7 +1454,7 @@ formatter.match({
   "location": "StepdefsDetailsProfile.theUserClicksOnTheProfileCardOf(String)"
 });
 formatter.result({
-  "duration": 623520430,
+  "duration": 285572770,
   "status": "passed"
 });
 formatter.match({
@@ -1427,7 +1475,7 @@ formatter.match({
   "location": "StepdefsDetailsProfile.theSystemShouldShowAPageOfWithWorkDetailsLikeAnd(String,String,String)"
 });
 formatter.result({
-  "duration": 559015439,
+  "duration": 337944137,
   "status": "passed"
 });
 formatter.background({
@@ -1451,14 +1499,14 @@ formatter.match({
   "location": "StepdefsDetailsProfile.imIntoDeLandingPage()"
 });
 formatter.result({
-  "duration": 14915848,
+  "duration": 16874032,
   "status": "passed"
 });
 formatter.match({
   "location": "StepdefsDetailsProfile.theLandingPageFinishedLoad()"
 });
 formatter.result({
-  "duration": 24718,
+  "duration": 2839228,
   "status": "passed"
 });
 formatter.scenario({
@@ -1497,7 +1545,7 @@ formatter.match({
   "location": "StepdefsDetailsProfile.theUserClicksOnTheProfileCardOf(String)"
 });
 formatter.result({
-  "duration": 380763180,
+  "duration": 265538474,
   "status": "passed"
 });
 formatter.match({
@@ -1518,7 +1566,7 @@ formatter.match({
   "location": "StepdefsDetailsProfile.theSystemShouldShowAPageOfWithWorkDetailsLikeAnd(String,String,String)"
 });
 formatter.result({
-  "duration": 372313879,
+  "duration": 337732304,
   "status": "passed"
 });
 formatter.background({
@@ -1542,14 +1590,14 @@ formatter.match({
   "location": "StepdefsDetailsProfile.imIntoDeLandingPage()"
 });
 formatter.result({
-  "duration": 13556730,
+  "duration": 9739013,
   "status": "passed"
 });
 formatter.match({
   "location": "StepdefsDetailsProfile.theLandingPageFinishedLoad()"
 });
 formatter.result({
-  "duration": 25934,
+  "duration": 2263254,
   "status": "passed"
 });
 formatter.scenario({
@@ -1588,7 +1636,7 @@ formatter.match({
   "location": "StepdefsDetailsProfile.theUserClicksOnTheProfileCardOf(String)"
 });
 formatter.result({
-  "duration": 457491314,
+  "duration": 281960924,
   "status": "passed"
 });
 formatter.match({
@@ -1609,7 +1657,7 @@ formatter.match({
   "location": "StepdefsDetailsProfile.theSystemShouldShowAPageOfWithWorkDetailsLikeAnd(String,String,String)"
 });
 formatter.result({
-  "duration": 375864847,
+  "duration": 368588182,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -1700,14 +1748,14 @@ formatter.match({
   "location": "StepdefsDetailsProfile.imIntoDeLandingPage()"
 });
 formatter.result({
-  "duration": 22769471,
+  "duration": 11534674,
   "status": "passed"
 });
 formatter.match({
   "location": "StepdefsDetailsProfile.theLandingPageFinishedLoad()"
 });
 formatter.result({
-  "duration": 28366,
+  "duration": 2409814,
   "status": "passed"
 });
 formatter.scenario({
@@ -1747,7 +1795,7 @@ formatter.match({
   "location": "StepdefsDetailsProfile.theUserClicksOnTheProfileCardOf(String)"
 });
 formatter.result({
-  "duration": 314486960,
+  "duration": 258963008,
   "status": "passed"
 });
 formatter.match({
@@ -1772,7 +1820,7 @@ formatter.match({
   "location": "StepdefsDetailsProfile.theSystemShouldShowAPageOfWithEducationDetailsLikeAnd(String,String,String,String)"
 });
 formatter.result({
-  "duration": 401107393,
+  "duration": 330818150,
   "status": "passed"
 });
 formatter.background({
@@ -1796,14 +1844,14 @@ formatter.match({
   "location": "StepdefsDetailsProfile.imIntoDeLandingPage()"
 });
 formatter.result({
-  "duration": 16237684,
+  "duration": 12372977,
   "status": "passed"
 });
 formatter.match({
   "location": "StepdefsDetailsProfile.theLandingPageFinishedLoad()"
 });
 formatter.result({
-  "duration": 22287,
+  "duration": 1925798,
   "status": "passed"
 });
 formatter.scenario({
@@ -1843,7 +1891,7 @@ formatter.match({
   "location": "StepdefsDetailsProfile.theUserClicksOnTheProfileCardOf(String)"
 });
 formatter.result({
-  "duration": 346081779,
+  "duration": 267166638,
   "status": "passed"
 });
 formatter.match({
@@ -1868,7 +1916,7 @@ formatter.match({
   "location": "StepdefsDetailsProfile.theSystemShouldShowAPageOfWithEducationDetailsLikeAnd(String,String,String,String)"
 });
 formatter.result({
-  "duration": 412519683,
+  "duration": 346659699,
   "status": "passed"
 });
 formatter.background({
@@ -1892,14 +1940,14 @@ formatter.match({
   "location": "StepdefsDetailsProfile.imIntoDeLandingPage()"
 });
 formatter.result({
-  "duration": 118613586,
+  "duration": 25771458,
   "status": "passed"
 });
 formatter.match({
   "location": "StepdefsDetailsProfile.theLandingPageFinishedLoad()"
 });
 formatter.result({
-  "duration": 27555,
+  "duration": 2634784,
   "status": "passed"
 });
 formatter.scenario({
@@ -1939,7 +1987,7 @@ formatter.match({
   "location": "StepdefsDetailsProfile.theUserClicksOnTheProfileCardOf(String)"
 });
 formatter.result({
-  "duration": 335569488,
+  "duration": 285566202,
   "status": "passed"
 });
 formatter.match({
@@ -1964,7 +2012,7 @@ formatter.match({
   "location": "StepdefsDetailsProfile.theSystemShouldShowAPageOfWithEducationDetailsLikeAnd(String,String,String,String)"
 });
 formatter.result({
-  "duration": 427185914,
+  "duration": 357399995,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -1977,21 +2025,16 @@ formatter.scenarioOutline({
 });
 formatter.step({
   "line": 41,
-  "name": "the speaker had all the information",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 42,
   "name": "the user clicks on the profile card of \"\u003cmember\u003e\"",
   "keyword": "When "
 });
 formatter.step({
-  "line": 43,
+  "line": 42,
   "name": "the system should show a page with \"\u003cmember\u003e\" with skills details \"\u003cprojects\u003e\", \"\u003ccertifications\u003e\" and \"\u003cskills\u003e\"",
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 45,
+  "line": 44,
   "name": "",
   "description": "",
   "id": "show-details-of-a-profile-card;the-profile-card-has-all-the-information;",
@@ -2003,37 +2046,37 @@ formatter.examples({
         "certifications",
         "skills"
       ],
-      "line": 46,
+      "line": 45,
       "id": "show-details-of-a-profile-card;the-profile-card-has-all-the-information;;1"
     },
     {
       "cells": [
         "Margarida",
-        "No âmbito da unidade curricular Projeto de Informática para a Saúde foi desenvolvida uma aplicação móvel para dispositivos Android, designada por Diabetes Friend, que tem como objetivo auxiliar pessoas diabéticas. Esta aplicação permite ao doente registar diariamente os seus níveis de glicemia, enviar gráficos/tabelas da evolução dos seus dados para o médico, definir alarmes, visualizar recomendações ao nível alimentar, de atividade física e da doença, entre outras funcionalidades",
+        "No âmbito da unidade curricular Projeto de Informática para a Saúde foi desenvolvida uma aplicação móvel para dispositivos Android, designada por Diabetes Friend, que tem como objetivo auxiliar pessoas diabéticas. Esta aplicação permite ao doente registar diariamente os seus níveis de glicemia, enviar gráficos/tabelas da evolução dos seus dados para o médico, definir alarmes, visualizar recomendações ao nível alimentar, de atividade física e da doença, entre outras funcionalidades.",
         "IP Erasmus - Learning Computer Programming in Virtual Environment (VIOPE)",
-        "HTML \u0026 CSS JavaScript \u0026 Jquery C# Java SQL Android Ruby on Rails Swift"
+        "HTML \u0026 CSS  Javascript \u0026 jQuery PHP Ruby on Rails C# Android SQL Swift"
       ],
-      "line": 47,
+      "line": 46,
       "id": "show-details-of-a-profile-card;the-profile-card-has-all-the-information;;2"
     },
     {
       "cells": [
         "Joao",
         "Aplicação mobile para sócios treinadores e jogadores.",
-        "Swift Level 2 Cambridge Certification Authority",
-        "HTML CSS JavaScript PHP C# Java SQL Android Swift Objective-C"
+        "Swift Level 2 - Cambridge Certification Authority",
+        "HTML \u0026 CSS  Javascript PHP C# Java SQL Android Swift"
       ],
-      "line": 48,
+      "line": 47,
       "id": "show-details-of-a-profile-card;the-profile-card-has-all-the-information;;3"
     },
     {
       "cells": [
         "Monica",
-        "No âmbito do Mestrado Engenharia Informática Computação móvel, foi desenvolvida em Swift3 uma aplicação móvel para dispositivos de IOS, designada por Series Time, esta tem como objetivo descobrir novas séries e através das sugestões saber as séries que estão na moda, podendo seguir as suas favoritas.Com Series Time nunca mais irão perder os episódios das vossas séries favoritas, nem se esquecer do episódio onde ficaram no último dia!",
+        "No âmbito da unidade curricular Projeto de Informática para a Saúde foi desenvolvida uma aplicação móvel para dispositivos Android, designada por Diabetes Friend, que tem como objetivo auxiliar pessoas diabéticas. Esta aplicação permite ao doente registar diariamente os seus níveis de glicemia, enviar gráficos/tabelas da evolução dos seus dados para o médico, definir alarmes, visualizar recomendações ao nível alimentar, de atividade física e da doença, entre outras funcionalidades.",
         "IP Erasmus - Learning Computer Programming in Virtual Environment (VIOPE)",
-        "HTML CSS JavaScript PHP C# Java SQL Android Ruby on Rails Swift"
+        "HTML \u0026 CSS  Javascript \u0026 jQuery C# Java SQL Android Ruby on Rails Swift"
       ],
-      "line": 49,
+      "line": 48,
       "id": "show-details-of-a-profile-card;the-profile-card-has-all-the-information;;4"
     }
   ],
@@ -2060,18 +2103,18 @@ formatter.match({
   "location": "StepdefsDetailsProfile.imIntoDeLandingPage()"
 });
 formatter.result({
-  "duration": 43620212,
+  "duration": 9502959,
   "status": "passed"
 });
 formatter.match({
   "location": "StepdefsDetailsProfile.theLandingPageFinishedLoad()"
 });
 formatter.result({
-  "duration": 29987,
+  "duration": 1929082,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 47,
+  "line": 46,
   "name": "The profile card has all the information",
   "description": "",
   "id": "show-details-of-a-profile-card;the-profile-card-has-all-the-information;;2",
@@ -2080,11 +2123,6 @@ formatter.scenario({
 });
 formatter.step({
   "line": 41,
-  "name": "the speaker had all the information",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 42,
   "name": "the user clicks on the profile card of \"Margarida\"",
   "matchedColumns": [
     0
@@ -2092,8 +2130,8 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 43,
-  "name": "the system should show a page with \"Margarida\" with skills details \"No âmbito da unidade curricular Projeto de Informática para a Saúde foi desenvolvida uma aplicação móvel para dispositivos Android, designada por Diabetes Friend, que tem como objetivo auxiliar pessoas diabéticas. Esta aplicação permite ao doente registar diariamente os seus níveis de glicemia, enviar gráficos/tabelas da evolução dos seus dados para o médico, definir alarmes, visualizar recomendações ao nível alimentar, de atividade física e da doença, entre outras funcionalidades\", \"IP Erasmus - Learning Computer Programming in Virtual Environment (VIOPE)\" and \"HTML \u0026 CSS JavaScript \u0026 Jquery C# Java SQL Android Ruby on Rails Swift\"",
+  "line": 42,
+  "name": "the system should show a page with \"Margarida\" with skills details \"No âmbito da unidade curricular Projeto de Informática para a Saúde foi desenvolvida uma aplicação móvel para dispositivos Android, designada por Diabetes Friend, que tem como objetivo auxiliar pessoas diabéticas. Esta aplicação permite ao doente registar diariamente os seus níveis de glicemia, enviar gráficos/tabelas da evolução dos seus dados para o médico, definir alarmes, visualizar recomendações ao nível alimentar, de atividade física e da doença, entre outras funcionalidades.\", \"IP Erasmus - Learning Computer Programming in Virtual Environment (VIOPE)\" and \"HTML \u0026 CSS  Javascript \u0026 jQuery PHP Ruby on Rails C# Android SQL Swift\"",
   "matchedColumns": [
     0,
     1,
@@ -2101,10 +2139,6 @@ formatter.step({
     3
   ],
   "keyword": "Then "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
 });
 formatter.match({
   "arguments": [
@@ -2116,7 +2150,8 @@ formatter.match({
   "location": "StepdefsDetailsProfile.theUserClicksOnTheProfileCardOf(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 270916423,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -2125,22 +2160,23 @@ formatter.match({
       "offset": 36
     },
     {
-      "val": "No âmbito da unidade curricular Projeto de Informática para a Saúde foi desenvolvida uma aplicação móvel para dispositivos Android, designada por Diabetes Friend, que tem como objetivo auxiliar pessoas diabéticas. Esta aplicação permite ao doente registar diariamente os seus níveis de glicemia, enviar gráficos/tabelas da evolução dos seus dados para o médico, definir alarmes, visualizar recomendações ao nível alimentar, de atividade física e da doença, entre outras funcionalidades",
+      "val": "No âmbito da unidade curricular Projeto de Informática para a Saúde foi desenvolvida uma aplicação móvel para dispositivos Android, designada por Diabetes Friend, que tem como objetivo auxiliar pessoas diabéticas. Esta aplicação permite ao doente registar diariamente os seus níveis de glicemia, enviar gráficos/tabelas da evolução dos seus dados para o médico, definir alarmes, visualizar recomendações ao nível alimentar, de atividade física e da doença, entre outras funcionalidades.",
       "offset": 68
     },
     {
       "val": "IP Erasmus - Learning Computer Programming in Virtual Environment (VIOPE)",
-      "offset": 557
+      "offset": 558
     },
     {
-      "val": "HTML \u0026 CSS JavaScript \u0026 Jquery C# Java SQL Android Ruby on Rails Swift",
-      "offset": 637
+      "val": "HTML \u0026 CSS  Javascript \u0026 jQuery PHP Ruby on Rails C# Android SQL Swift",
+      "offset": 638
     }
   ],
   "location": "StepdefsDetailsProfile.theSystemShouldShowAPageWithWithSkillsDetailsAnd(String,String,String,String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 379537849,
+  "status": "passed"
 });
 formatter.background({
   "line": 7,
@@ -2163,18 +2199,18 @@ formatter.match({
   "location": "StepdefsDetailsProfile.imIntoDeLandingPage()"
 });
 formatter.result({
-  "duration": 9979423,
+  "duration": 8013964,
   "status": "passed"
 });
 formatter.match({
   "location": "StepdefsDetailsProfile.theLandingPageFinishedLoad()"
 });
 formatter.result({
-  "duration": 22692,
+  "duration": 1458204,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 48,
+  "line": 47,
   "name": "The profile card has all the information",
   "description": "",
   "id": "show-details-of-a-profile-card;the-profile-card-has-all-the-information;;3",
@@ -2183,11 +2219,6 @@ formatter.scenario({
 });
 formatter.step({
   "line": 41,
-  "name": "the speaker had all the information",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 42,
   "name": "the user clicks on the profile card of \"Joao\"",
   "matchedColumns": [
     0
@@ -2195,8 +2226,8 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 43,
-  "name": "the system should show a page with \"Joao\" with skills details \"Aplicação mobile para sócios treinadores e jogadores.\", \"Swift Level 2 Cambridge Certification Authority\" and \"HTML CSS JavaScript PHP C# Java SQL Android Swift Objective-C\"",
+  "line": 42,
+  "name": "the system should show a page with \"Joao\" with skills details \"Aplicação mobile para sócios treinadores e jogadores.\", \"Swift Level 2 - Cambridge Certification Authority\" and \"HTML \u0026 CSS  Javascript PHP C# Java SQL Android Swift\"",
   "matchedColumns": [
     0,
     1,
@@ -2204,10 +2235,6 @@ formatter.step({
     3
   ],
   "keyword": "Then "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
 });
 formatter.match({
   "arguments": [
@@ -2219,7 +2246,8 @@ formatter.match({
   "location": "StepdefsDetailsProfile.theUserClicksOnTheProfileCardOf(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 273125077,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -2232,18 +2260,19 @@ formatter.match({
       "offset": 63
     },
     {
-      "val": "Swift Level 2 Cambridge Certification Authority",
+      "val": "Swift Level 2 - Cambridge Certification Authority",
       "offset": 120
     },
     {
-      "val": "HTML CSS JavaScript PHP C# Java SQL Android Swift Objective-C",
-      "offset": 174
+      "val": "HTML \u0026 CSS  Javascript PHP C# Java SQL Android Swift",
+      "offset": 176
     }
   ],
   "location": "StepdefsDetailsProfile.theSystemShouldShowAPageWithWithSkillsDetailsAnd(String,String,String,String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 368917427,
+  "status": "passed"
 });
 formatter.background({
   "line": 7,
@@ -2266,18 +2295,18 @@ formatter.match({
   "location": "StepdefsDetailsProfile.imIntoDeLandingPage()"
 });
 formatter.result({
-  "duration": 14275190,
+  "duration": 8707351,
   "status": "passed"
 });
 formatter.match({
   "location": "StepdefsDetailsProfile.theLandingPageFinishedLoad()"
 });
 formatter.result({
-  "duration": 25124,
+  "duration": 3331865,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 49,
+  "line": 48,
   "name": "The profile card has all the information",
   "description": "",
   "id": "show-details-of-a-profile-card;the-profile-card-has-all-the-information;;4",
@@ -2286,11 +2315,6 @@ formatter.scenario({
 });
 formatter.step({
   "line": 41,
-  "name": "the speaker had all the information",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 42,
   "name": "the user clicks on the profile card of \"Monica\"",
   "matchedColumns": [
     0
@@ -2298,8 +2322,8 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 43,
-  "name": "the system should show a page with \"Monica\" with skills details \"No âmbito do Mestrado Engenharia Informática Computação móvel, foi desenvolvida em Swift3 uma aplicação móvel para dispositivos de IOS, designada por Series Time, esta tem como objetivo descobrir novas séries e através das sugestões saber as séries que estão na moda, podendo seguir as suas favoritas.Com Series Time nunca mais irão perder os episódios das vossas séries favoritas, nem se esquecer do episódio onde ficaram no último dia!\", \"IP Erasmus - Learning Computer Programming in Virtual Environment (VIOPE)\" and \"HTML CSS JavaScript PHP C# Java SQL Android Ruby on Rails Swift\"",
+  "line": 42,
+  "name": "the system should show a page with \"Monica\" with skills details \"No âmbito da unidade curricular Projeto de Informática para a Saúde foi desenvolvida uma aplicação móvel para dispositivos Android, designada por Diabetes Friend, que tem como objetivo auxiliar pessoas diabéticas. Esta aplicação permite ao doente registar diariamente os seus níveis de glicemia, enviar gráficos/tabelas da evolução dos seus dados para o médico, definir alarmes, visualizar recomendações ao nível alimentar, de atividade física e da doença, entre outras funcionalidades.\", \"IP Erasmus - Learning Computer Programming in Virtual Environment (VIOPE)\" and \"HTML \u0026 CSS  Javascript \u0026 jQuery C# Java SQL Android Ruby on Rails Swift\"",
   "matchedColumns": [
     0,
     1,
@@ -2307,10 +2331,6 @@ formatter.step({
     3
   ],
   "keyword": "Then "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
 });
 formatter.match({
   "arguments": [
@@ -2322,7 +2342,8 @@ formatter.match({
   "location": "StepdefsDetailsProfile.theUserClicksOnTheProfileCardOf(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 264469864,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -2331,22 +2352,23 @@ formatter.match({
       "offset": 36
     },
     {
-      "val": "No âmbito do Mestrado Engenharia Informática Computação móvel, foi desenvolvida em Swift3 uma aplicação móvel para dispositivos de IOS, designada por Series Time, esta tem como objetivo descobrir novas séries e através das sugestões saber as séries que estão na moda, podendo seguir as suas favoritas.Com Series Time nunca mais irão perder os episódios das vossas séries favoritas, nem se esquecer do episódio onde ficaram no último dia!",
+      "val": "No âmbito da unidade curricular Projeto de Informática para a Saúde foi desenvolvida uma aplicação móvel para dispositivos Android, designada por Diabetes Friend, que tem como objetivo auxiliar pessoas diabéticas. Esta aplicação permite ao doente registar diariamente os seus níveis de glicemia, enviar gráficos/tabelas da evolução dos seus dados para o médico, definir alarmes, visualizar recomendações ao nível alimentar, de atividade física e da doença, entre outras funcionalidades.",
       "offset": 65
     },
     {
       "val": "IP Erasmus - Learning Computer Programming in Virtual Environment (VIOPE)",
-      "offset": 506
+      "offset": 555
     },
     {
-      "val": "HTML CSS JavaScript PHP C# Java SQL Android Ruby on Rails Swift",
-      "offset": 586
+      "val": "HTML \u0026 CSS  Javascript \u0026 jQuery C# Java SQL Android Ruby on Rails Swift",
+      "offset": 635
     }
   ],
   "location": "StepdefsDetailsProfile.theSystemShouldShowAPageWithWithSkillsDetailsAnd(String,String,String,String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 378973781,
+  "status": "passed"
 });
 formatter.uri("Show the profile cards.feature");
 formatter.feature({
@@ -2481,14 +2503,14 @@ formatter.match({
   "location": "StepdefsShowProfileCards.imIntoDeWebsite()"
 });
 formatter.result({
-  "duration": 413638099,
+  "duration": 384193264,
   "status": "passed"
 });
 formatter.match({
   "location": "StepdefsShowProfileCards.thePageFinishedLoad()"
 });
 formatter.result({
-  "duration": 7804997,
+  "duration": 11568338,
   "status": "passed"
 });
 formatter.match({
@@ -2529,7 +2551,7 @@ formatter.match({
   "location": "StepdefsShowProfileCards.theWebsiteShowsTheProfileCardsOfEachMemberWithAnd(String,String,String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 1995405179,
+  "duration": 1683252370,
   "status": "passed"
 });
 formatter.scenario({
@@ -2569,14 +2591,14 @@ formatter.match({
   "location": "StepdefsShowProfileCards.imIntoDeWebsite()"
 });
 formatter.result({
-  "duration": 14992839,
+  "duration": 10940226,
   "status": "passed"
 });
 formatter.match({
   "location": "StepdefsShowProfileCards.thePageFinishedLoad()"
 });
 formatter.result({
-  "duration": 16803780,
+  "duration": 6286863,
   "status": "passed"
 });
 formatter.match({
@@ -2617,7 +2639,7 @@ formatter.match({
   "location": "StepdefsShowProfileCards.theWebsiteShowsTheProfileCardsOfEachMemberWithAnd(String,String,String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 384594967,
+  "duration": 273871421,
   "status": "passed"
 });
 formatter.scenario({
@@ -2657,14 +2679,14 @@ formatter.match({
   "location": "StepdefsShowProfileCards.imIntoDeWebsite()"
 });
 formatter.result({
-  "duration": 11945564,
+  "duration": 7848521,
   "status": "passed"
 });
 formatter.match({
   "location": "StepdefsShowProfileCards.thePageFinishedLoad()"
 });
 formatter.result({
-  "duration": 17039620,
+  "duration": 3436960,
   "status": "passed"
 });
 formatter.match({
@@ -2705,56 +2727,105 @@ formatter.match({
   "location": "StepdefsShowProfileCards.theWebsiteShowsTheProfileCardsOfEachMemberWithAnd(String,String,String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 345260798,
+  "duration": 272818000,
   "status": "passed"
 });
-formatter.scenario({
-  "line": 17,
-  "name": "The profile card doesn\u0027t have photo",
-  "description": "",
-  "id": "show-the-profile-cards;the-profile-card-doesn\u0027t-have-photo",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 18,
-  "name": "is not possible show \u003cphoto\u003e",
-  "keyword": "Given "
-});
-formatter.step({
+formatter.scenarioOutline({
   "line": 19,
-  "name": "the user accesses the site",
-  "keyword": "When "
+  "name": ": The profile card doesn´t have Instagram",
+  "description": "",
+  "id": "show-the-profile-cards;:-the-profile-card-doesn´t-have-instagram",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline"
 });
 formatter.step({
   "line": 20,
-  "name": "the system should show a \"imagedefault.jpg\"",
+  "name": "the user clicks on the Instagram button of \"\u003cmember\u003e\"",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 21,
+  "name": "the system must hace a disable \"\u003cinstagram\u003e\" link with the color grey of \"\u003cmember\u003e\"",
   "keyword": "Then "
 });
-formatter.match({
-  "location": "StepdefsShowProfileCards.isNotPossibleShowPhoto()"
+formatter.examples({
+  "line": 23,
+  "name": "",
+  "description": "",
+  "id": "show-the-profile-cards;:-the-profile-card-doesn´t-have-instagram;",
+  "rows": [
+    {
+      "cells": [
+        "member",
+        "instagram"
+      ],
+      "line": 24,
+      "id": "show-the-profile-cards;:-the-profile-card-doesn´t-have-instagram;;1"
+    },
+    {
+      "cells": [
+        "Monica",
+        "disabled"
+      ],
+      "line": 25,
+      "id": "show-the-profile-cards;:-the-profile-card-doesn´t-have-instagram;;2"
+    }
+  ],
+  "keyword": "Examples"
 });
-formatter.result({
-  "duration": 2466996,
-  "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat StepdefsShowProfileCards.isNotPossibleShowPhoto(StepdefsShowProfileCards.java:83)\r\n\tat ✽.Given is not possible show \u003cphoto\u003e(Show the profile cards.feature:18)\r\n",
-  "status": "pending"
+formatter.scenario({
+  "line": 25,
+  "name": ": The profile card doesn´t have Instagram",
+  "description": "",
+  "id": "show-the-profile-cards;:-the-profile-card-doesn´t-have-instagram;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
 });
-formatter.match({
-  "location": "StepdefsShowProfileCards.theUserAccessesTheSite()"
+formatter.step({
+  "line": 20,
+  "name": "the user clicks on the Instagram button of \"Monica\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
 });
-formatter.result({
-  "status": "skipped"
+formatter.step({
+  "line": 21,
+  "name": "the system must hace a disable \"disabled\" link with the color grey of \"Monica\"",
+  "matchedColumns": [
+    0,
+    1
+  ],
+  "keyword": "Then "
 });
 formatter.match({
   "arguments": [
     {
-      "val": "imagedefault.jpg",
-      "offset": 26
+      "val": "Monica",
+      "offset": 44
     }
   ],
-  "location": "StepdefsShowProfileCards.theSystemShouldShowA(String)"
+  "location": "StepdefsSocial.theUserClicksOnTheInstagramButtonOf(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 232310552,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "disabled",
+      "offset": 32
+    },
+    {
+      "val": "Monica",
+      "offset": 71
+    }
+  ],
+  "location": "StepdefsShowProfileCards.theSystemMustHaceADisableLinkWithTheColorGreyOf(String,String)"
+});
+formatter.result({
+  "duration": 1968082,
+  "status": "passed"
 });
 });
