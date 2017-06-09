@@ -76,4 +76,24 @@ public class StepdefsShowProfileCards {
         }
 
     }
+
+    @Given("^is not possible show <photo>$")
+    public void isNotPossibleShowPhoto() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
+    }
+
+
+    @When("^the user accesses the site$")
+    public void theUserAccessesTheSite() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
+    }
+
+
+    @Then("^the system should show a \"([^\"]*)\"$")
+    public void theSystemShouldShowA(String arg0) throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
+    }
 }

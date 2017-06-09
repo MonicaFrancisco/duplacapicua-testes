@@ -13,12 +13,12 @@ Feature: Show the profile cards
       | Margarida  | img/1.jpg | Ana Margarida Weber| Estudante do Mestrado de Eng.Informática |Instituto Politécnico de Leiria|https://www.linkedin.com/in/anamargaridaweber/                |https://www.facebook.com/margarida.weber.9            |https://www.instagram.com/margarida_weber/?hl=pt         |
       | Joao       | img/2.jpg | João Fernandes     | Software Developer                       |Tecmic                         |https://www.linkedin.com/in/jo%C3%A3o-fernandes-17b8a7114/    |https://www.facebook.com/joao.fernandes.90281         |https://www.instagram.com/joaofpfernandes/?hl=pt         |
       | Monica     | img/3.jpg | Mónica Francisco   | Estudante do Mestrado de Eng.Informática |Instituto Politécnico de Leiria|https://www.linkedin.com/in/m%C3%B3nica-francisco-997746115/  |https://www.facebook.com/monicasmfrancisco             |                                                         |
-#
-# Scenario: The profile card doesn't have photo
-#  Given is not possible show <photo>t
-#  When the user accesses the site
-#  Then the system should show a "imagedefault.jpg"
-#
+
+ Scenario: The profile card doesn't have photo
+  Given is not possible show <photo>
+  When the user accesses the site
+  Then the system should show a "imagedefault.jpg"
+
 # Scenario: The profile card doesn't have name
 #  Given the profile card is not possible show <name>
 #  When the user accesses the site
@@ -48,9 +48,3 @@ Feature: Show the profile cards
 #  Given the speaker doesn't have <instagram>
 #  When the user accesses the site
 #  Then the system should disable the Instagram button with the color grey
-#
-#
-# Scenario: The profile card doesn't have an associated email
-#  Given the speaker doesn't have <email>
-#  When the user accesses the site
-#  Then the system should disable the email button with the color grey

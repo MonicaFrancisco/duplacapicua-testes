@@ -1,17 +1,17 @@
-#Feature: Show details of a profile card
+Feature: Show details of a profile card
 
- #As an User
- #I want to check the details of a profile card
- #So that I can get to know more about the speaker
+ As an User
+ I want to check the details of a profile card
+ So that I can get to know more about the speaker
 
-#  Scenario Outline: The profile card has all the information
-#    Given the speaker had all the information
-#    When the user clicks on the profile card
-#    Then the system should show a page with "<member>" details who clicked with  "<name>" , "<workplace>", "<job>", "<working experience>" ,"<education>", "<projects>", "<certifications>" and "<skills>"
-#
-# Examples:
-#| member    | name                | workplace                               | working experience													       | education															  | projects                                                                        |
-#| Margarida |Ana Margarida Weber  | Instituto Politénico de Leiria          | Leirivida's photo Leirivida Tecnica Administrativa 2015-presente                                                               | Instituto Politecnico de Leiria Informatica para a Sa?de  2013 - 2016								|  Diabetes Friend 2016 No ambito da unidade curricular Projeto de Informatica para a Saude foi desenvolvida uma aplicacao movel para dispositivos Android, designada por Diabetes Friend, que tem como objetivo auxiliar pessoas diabeticas. Esta aplicacao permite ao doente registar diariamente os seus n?veis de glicemia, enviar gr?ficos/tabelas da evolucao dos seus dados para o medico, definir alarmes, visualizar recomendacoes ao nivel alimentar, de atividade fisica e da doenca, entre outras funcionalidades.|
+  Scenario Outline: The profile card has all the information
+    Given the speaker had all the information
+    When the user clicks on the profile card
+    Then the system should show a page with "<member>" details who clicked with  "<name>" , "<workplace>", "<job>", "<working experience>" ,"<education>", "<projects>", "<certifications>" and "<skills>"
+
+ Examples:
+| member    | name                | workplace                               | working experience													       | education															  | projects                                                                        |
+| Margarida |Ana Margarida Weber  | Instituto Politénico de Leiria          | Leirivida's photo Leirivida Tecnica Administrativa 2015-presente                                                               | Instituto Politecnico de Leiria Informatica para a Sa?de  2013 - 2016								|  Diabetes Friend 2016 No ambito da unidade curricular Projeto de Informatica para a Saude foi desenvolvida uma aplicacao movel para dispositivos Android, designada por Diabetes Friend, que tem como objetivo auxiliar pessoas diabeticas. Esta aplicacao permite ao doente registar diariamente os seus n?veis de glicemia, enviar gr?ficos/tabelas da evolucao dos seus dados para o medico, definir alarmes, visualizar recomendacoes ao nivel alimentar, de atividade fisica e da doenca, entre outras funcionalidades.|
 #Ana Margarida Weber  | Stream's photo  Stream Consulting Programadora  mai 2016-ago 2016                                                              | Instituto Politecnico de Leiria Mestrado de Engenharia Informatica CM 2016 - Presente    					|  Series Time 2017 No ambito do Mestrado Engenharia Informatica Computacao movel, foi desenvolvida em Swift3 uma aplicacao movel para dispositivos de IOS, designada por Series Time, esta tem como objetivo descobrir novas series e atraves das sugestoes saber as series que estao na moda, podendo seguir as suas favoritas. Com Series Time nunca mais irao perder os episodios das vossas series favoritas, nem se esquecer do episodio onde ficaram no ultimo dia! |
 #Joao Fernandes       | VOID's photo  VOID  Programador mai-2016-ago-2016                                                                              | Instituto Politecnico de Leiria Informatica para a Sa?de 2013 - 2016 								|  App Fatima
 #Joao Fernandes       | Tecmic's photo  Tecmic Programador  mar-2017-presente                                                                          | Instituto Politecnico de Leiria Mestrado de Engenharia Informatica CM 2016 - Presente 						|  Series Time 2017 No ambito do Mestrado Engenharia Informatica Computacaoo movel, foi desenvolvida em Swift3 uma aplicacao movel para dispositivos de IOS, designada por Series Time, esta tem como objetivo descobrir novas series e atraves das sugestoes saber as series que estao na moda, podendo seguir as suas favoritas.Com Series Time nunca mais irao perder os episodios das vossas series favoritas, nem se esquecer do episodio onde ficaram no ultimo dia!

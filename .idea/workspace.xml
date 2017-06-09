@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ccd5fd8-e7ad-42b3-8b95-76f9f848438b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DuplaCapicua.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/Driver.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/StepdefsDetailsProfileCard.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/StepdefsSendEmail.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/StepdefsSocialNetworks.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/StepdefsDetailsProfile.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/test-report/formatter.js" afterPath="$PROJECT_DIR$/reports/test-report/formatter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/test-report/index.html" afterPath="$PROJECT_DIR$/reports/test-report/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/test-report/jquery-1.8.2.min.js" afterPath="$PROJECT_DIR$/reports/test-report/jquery-1.8.2.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/test-report/report.js" afterPath="$PROJECT_DIR$/reports/test-report/report.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reports/test-report/style.css" afterPath="$PROJECT_DIR$/reports/test-report/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/CucumberRunner.java" afterPath="$PROJECT_DIR$/src/test/java/CucumberRunner.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/StepdefsShowProfileCards.java" afterPath="$PROJECT_DIR$/src/test/java/StepdefsShowProfileCards.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/Show details of a profile card.feature" afterPath="$PROJECT_DIR$/src/test/resources/Show details of a profile card.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/Show the profile cards.feature" afterPath="$PROJECT_DIR$/src/test/resources/Show the profile cards.feature" />
@@ -37,11 +20,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Show the profile cards.feature" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/Show the profile cards.feature">
+      <file leaf-file-name="Show details of a profile card.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/Show details of a profile card.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="61" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="61" />
+            <state relative-caret-position="119">
+              <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StepdefsDetailsProfile.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/StepdefsDetailsProfile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -50,10 +43,10 @@
       <file leaf-file-name="StepdefsShowProfileCards.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/StepdefsShowProfileCards.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+            <state relative-caret-position="289">
+              <caret line="36" column="95" lean-forward="true" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="95" />
               <folding>
-                <marker date="1496963072259" expanded="false" signature="5298:5304" ph=" }" />
+                <marker date="1496967555890" expanded="false" signature="5298:5304" ph=" }" />
               </folding>
             </state>
           </provider>
@@ -85,12 +78,15 @@
         <option value="$PROJECT_DIR$/src/test/Resources/form.feature" />
         <option value="$PROJECT_DIR$/src/test/java/StepdefsForm.java" />
         <option value="$PROJECT_DIR$/src/test/java/CucumberRunner.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/Show details of a profile card.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/Send email.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/Search a profile card.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/Access the social networks.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/StepdefsShowProfileCards.java" />
         <option value="$PROJECT_DIR$/src/test/resources/Show the profile cards.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/StepdefsShowProfileCards.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/Show details of a profile card.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/StepdefsDetailsProfileCard.java" />
+        <option value="$PROJECT_DIR$/src/test/java/StepdefsDetailsProfileCards.java" />
+        <option value="$PROJECT_DIR$/src/test/java/StepdefsDetailsProfile.java" />
       </list>
     </option>
   </component>
@@ -138,6 +134,64 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="duplacapicua-testes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="duplacapicua-testes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="duplacapicua-testes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="duplacapicua-testes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="duplacapicua-testes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="duplacapicua-testes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="duplacapicua-testes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -601,7 +655,7 @@
       <workItem from="1496954116819" duration="9361000" />
       <workItem from="1496964458115" duration="104000" />
       <workItem from="1496964849842" duration="321000" />
-      <workItem from="1496965397950" duration="110000" />
+      <workItem from="1496965397950" duration="3217000" />
     </task>
     <servers />
   </component>
@@ -638,10 +692,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16154000" />
+    <option name="totallyTimeSpent" value="19261000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1378" height="744" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -703,7 +757,7 @@
         <state relative-caret-position="544">
           <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
           <folding>
-            <marker date="1496963072259" expanded="false" signature="5298:5304" ph=" }" />
+            <marker date="1496967555890" expanded="false" signature="5298:5304" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -721,7 +775,7 @@
         <state relative-caret-position="544">
           <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
           <folding>
-            <marker date="1496963072259" expanded="false" signature="5298:5304" ph=" }" />
+            <marker date="1496967555890" expanded="false" signature="5298:5304" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -739,7 +793,7 @@
         <state relative-caret-position="595">
           <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
           <folding>
-            <marker date="1496963072259" expanded="false" signature="5298:5304" ph=" }" />
+            <marker date="1496967555890" expanded="false" signature="5298:5304" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -789,13 +843,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/Show details of a profile card.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="48" lean-forward="false" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/Send email.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -817,20 +864,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/StepdefsShowProfileCards.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/StepdefsDetailsProfileCard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-          <folding>
-            <marker date="1496963072259" expanded="false" signature="5298:5304" ph=" }" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/Show the profile cards.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="61" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="61" />
+        <state relative-caret-position="544">
+          <caret line="32" column="43" lean-forward="false" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/Show details of a profile card.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/StepdefsDetailsProfileCards.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/StepdefsShowProfileCards.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="36" column="95" lean-forward="true" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="95" />
+          <folding>
+            <marker date="1496967555890" expanded="false" signature="5298:5304" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/StepdefsDetailsProfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
           <folding />
         </state>
       </provider>
